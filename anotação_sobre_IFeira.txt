@@ -1,0 +1,4 @@
+Tela de Pagamento:
+o usuário deve ter informado o cartão de credito ou forma de pagamento anterior mente
+o usuário já deve ter cadastrado seu endereço
+

@@ -12,12 +12,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        View start = findViewById(R.id.rl);
+        /*View start = findViewById(R.id.rl);
         start.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this, CadastroDoUsuario.class);
+                Intent i = new Intent(MainActivity.this, TelaDePagamento.class);
                 startActivity(i);
             }
-        });
+        });*/
     }
 }

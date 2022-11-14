@@ -7,5 +7,10 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="branco">#FFFAFA</color>
+    <color name="branco_cinza">#F5F5F5</color>
     <color name="grennButton">#228B22</color>
+    <color name="cinza">@android:color/darker_gray</color>
+    <color name="vermelho_vinho">#A52A2A</color>
+    <color name="cinza_mais_claro">	#D3D3D3</color>
 </resources>
