@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="checkBoxStyleGrey" parent="Theme.MaterialComponents">
+        <item name="colorSecondary">#228B22</item>
+    </style>
+    <style name="teste" parent="Theme.MaterialComponents">
+        <item name="colorControlNormal"> @android:color/darker_gray</item>
+    </style>
+</resources>
