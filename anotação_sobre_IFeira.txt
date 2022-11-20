@@ -1,10 +1,19 @@
-grupogjm@hotmail.com
-Psswrd@gjm
-
-grupogjm
-Senh4gjm
-
 Tela de Pagamento:
-o usuário deve ter informado o cartão de credito ou forma de pagamento anterior mente
+o usuário deve ter informado o cartão de credito ou forma de pagamento anteriormente
 o usuário já deve ter cadastrado seu endereço
+
+
+Imagens para caber no layout:
+Maior tamanho testado: 754x394 tam=452kb
+
+
+
+
+Videos relacionados:
+
+CAMPO DE BUSCA NA TOOLBAR
+https://www.youtube.com/watch?v=lQ0Hh4vT0jk&ab_channel=ProgrameparaAndroid
+
+COMO FAZER UMA TOOBAR
+https://dev.to/luizfranco/implementando-uma-toolbar-no-android-studio-com-kotlin-2cj4#:~:text=A%20Toolbar%20%C3%A9%20um%20dos,e%20um%20mecanismo%20de%20busca.
 
