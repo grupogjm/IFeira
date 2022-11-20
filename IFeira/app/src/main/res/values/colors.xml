@@ -13,4 +13,7 @@
     <color name="cinza">@android:color/darker_gray</color>
     <color name="vermelho_vinho">#A52A2A</color>
     <color name="cinza_mais_claro">	#D3D3D3</color>
+    <color name="very_light_cinza">#DCDCDC</color>
+    <color name="cinza_escuro">#666666</color>
+    <color name="grenn_padrao">#235411</color>
 </resources>

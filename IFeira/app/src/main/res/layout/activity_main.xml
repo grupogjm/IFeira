@@ -6,11 +6,509 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <include
+        android:id="@+id/Toolbar"
+        layout="@layout/toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </include>
+
+    <EditText
+        android:id="@+id/Edit_pesquisa"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingLeft="9dp"
+        android:paddingBottom="5dp"
+        android:hint="Pesquisar"
+        android:textColor="@color/black"
+        android:background="@drawable/back_do_pesquisar_fundo_cinza"
+        app:layout_constraintTop_toTopOf="@id/Toolbar"
+        app:layout_constraintStart_toEndOf="@id/View_logo"
+        app:layout_constraintEnd_toStartOf="@id/View_ic_tres_linhas"
+        app:layout_constraintBottom_toBottomOf="@id/Toolbar"/>
+
+
     <View
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:id="@+id/View_ic_tres_linhas"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/ic_menu"
+        app:layout_constraintTop_toTopOf="@id/Toolbar"
+        app:layout_constraintStart_toEndOf="@id/Edit_pesquisa"
+        app:layout_constraintEnd_toEndOf="@id/Toolbar"
+        app:layout_constraintBottom_toBottomOf="@id/Toolbar" />
+
+    <View
+        android:id="@+id/View_logo"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
         android:background="@drawable/circulo_logo"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toTopOf="@id/Toolbar"
+        app:layout_constraintStart_toStartOf="@id/Toolbar"
+        app:layout_constraintEnd_toStartOf="@id/Edit_pesquisa"
+        app:layout_constraintBottom_toBottomOf="@id/Toolbar"/>
+
+    <View
+        android:id="@+id/View_icone_map"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginLeft="13dp"
+        android:background="@drawable/ic_baseline_location_on_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Toolbar"/>
+
+    <TextView
+        android:id="@+id/Endereco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="9dp"
+        android:text="Rua Rosa de maio, 67, centro"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/Toolbar"
+        app:layout_constraintStart_toEndOf="@id/View_icone_map"/>
+
+    <View
+        android:id="@+id/Seta_endereco"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/ic_seta_direita"
+        android:layout_marginTop="17dp"
+        android:layout_marginLeft="20dp"
+        app:layout_constraintTop_toBottomOf="@id/View_ic_tres_linhas"
+        app:layout_constraintStart_toEndOf="@id/Endereco"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/Tipo_do_endereco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="9dp"
+        android:text="Casa"
+        android:textSize="16dp"
+        app:layout_constraintTop_toBottomOf="@id/Endereco"
+        app:layout_constraintStart_toEndOf="@id/View_icone_map"/>
+
+
+    <View
+        android:id="@+id/View_em_destaque"
+        android:layout_width="130dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/back_fundo_em_destaque"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/View_icone_map"
+        app:layout_constraintEnd_toStartOf="@id/View_promocao"/>
+
+    <View
+        android:id="@+id/View_promocao"
+        android:layout_width="130dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/back_cinza_quadrado"
+        app:layout_constraintTop_toBottomOf="@id/View_icone_map"
+        app:layout_constraintStart_toEndOf="@id/View_em_destaque"
+        app:layout_constraintEnd_toStartOf="@id/View_tudo"/>
+
+    <View
+        android:id="@+id/View_tudo"
+        android:layout_width="80dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/back_cinza_quadrado"
+        app:layout_constraintStart_toEndOf="@id/View_promocao"
+        app:layout_constraintTop_toBottomOf="@id/View_icone_map"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/Text_em_destaque"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Em destaque"
+        android:textColor="@color/white"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="@id/View_em_destaque"
+        app:layout_constraintStart_toStartOf="@id/View_em_destaque"
+        app:layout_constraintEnd_toEndOf="@id/View_em_destaque"
+        app:layout_constraintBottom_toBottomOf="@id/View_em_destaque"
+        />
+
+    <TextView
+        android:id="@+id/Text_promocao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Promoções"
+        android:textColor="@color/white"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="@id/View_promocao"
+        app:layout_constraintStart_toStartOf="@id/View_promocao"
+        app:layout_constraintEnd_toEndOf="@id/View_promocao"
+        app:layout_constraintBottom_toBottomOf="@id/View_promocao"
+        />
+
+    <TextView
+        android:id="@+id/Text_tudo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tudo"
+        android:textColor="@color/white"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="@id/View_tudo"
+        app:layout_constraintStart_toStartOf="@id/View_tudo"
+        app:layout_constraintEnd_toEndOf="@id/View_tudo"
+        app:layout_constraintBottom_toBottomOf="@id/View_tudo"/>
+
+    <ImageView
+        android:id="@+id/Imagem_desconto_01"
+        android:layout_width="25dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/imagem_layout"
+        app:layout_constraintTop_toBottomOf="@id/View_em_destaque"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/Imagem_desconto_02"/>
+
+    <ImageView
+        android:id="@+id/Imagem_desconto_02"
+        android:layout_width="325dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/imagem_layout"
+        app:layout_constraintStart_toEndOf="@id/Imagem_desconto_01"
+        app:layout_constraintTop_toBottomOf="@id/View_em_destaque"/>
+
+    <ImageView
+        android:id="@+id/Imagem_desconto_03"
+        android:layout_width="25dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/imagem_layout"
+        app:layout_constraintStart_toEndOf="@id/Imagem_desconto_02"
+        app:layout_constraintTop_toBottomOf="@id/View_em_destaque"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <LinearLayout
+        android:id="@+id/Linearlayout01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/Imagem_desconto_01"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
-    </View>
+        <TextView
+            android:id="@+id/Campo_legumes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="15dp"
+            android:text="Legumes"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            />
+
+        <TextView
+            android:id="@+id/Ver_todos_campo_legumes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="14dp"
+            android:gravity="right"
+            android:text="ver todos"
+            android:textSize="14dp"/>
+
+        <View
+            android:id="@+id/Seta_ver_todos_legumes"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:paddingLeft="23dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/ic_seta_direita"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Linearlayout02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/Linearlayout01"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+        <ImageView
+            android:id="@+id/Imagem_legumes_01"
+            android:layout_width="120dp"
+            android:layout_height="105dp"
+            android:layout_weight="1"
+            android:src="@drawable/tomates"/>
+
+        <ImageView
+            android:id="@+id/Imagem_legumes_02"
+            android:layout_width="120dp"
+            android:layout_height="105dp"
+            android:layout_weight="1"
+            android:src="@drawable/varios_vegetais"/>
+
+        <ImageView
+            android:id="@+id/Imagem_legumes_03"
+            android:layout_width="120dp"
+            android:layout_height="105dp"
+            android:layout_weight="1"
+            android:src="@drawable/alface"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Linearlayout03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/Linearlayout02"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+        <TextView
+            android:id="@+id/Nome_legumes_01"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="15dp"
+            android:textColor="@color/black"
+            android:text="Tomate"/>
+        <TextView
+            android:id="@+id/Nome_legumes_02"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="15dp"
+            android:textColor="@color/black"
+            android:text="Legumes variados"/>
+        <TextView
+            android:id="@+id/Nome_legumes_03"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:text="Alface"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/Linearlayout04"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/Linearlayout03"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+        <TextView
+            android:id="@+id/Valor_legumes_01"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:layout_weight="1"
+            android:textColor="@color/grenn_padrao"
+            android:text="R$ 6,90/Kg"/>
+        <TextView
+            android:id="@+id/Valor_legumes_02"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="15dp"
+            android:textColor="@color/grenn_padrao"
+            android:text="R$ 6,70/Kg"/>
+        <TextView
+            android:id="@+id/Valor_legumes_03"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="15dp"
+            android:textColor="@color/grenn_padrao"
+            android:text="R$ 3,88/uni"/>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/Linha_cima"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="45dp"
+        android:background="@color/cinza"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/View_icone_hitorico"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:background="@drawable/ic_historia"
+        app:layout_constraintTop_toBottomOf="@id/Linha_cima"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/View_icone_home"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <View
+        android:id="@+id/View_icone_home"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:background="@drawable/ic_home"
+        app:layout_constraintTop_toBottomOf="@id/Linha_cima"
+        app:layout_constraintStart_toEndOf="@id/View_icone_hitorico"
+        app:layout_constraintEnd_toStartOf="@id/View_icone_carrinho"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <View
+        android:id="@+id/View_icone_carrinho"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:background="@drawable/ic_carrinho"
+        app:layout_constraintTop_toBottomOf="@id/Linha_cima"
+        app:layout_constraintStart_toEndOf="@id/View_icone_home"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <LinearLayout
+        android:id="@+id/LinearlayoutFrutas1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/Linearlayout04"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+        <TextView
+            android:id="@+id/Campo_Frutas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="15dp"
+            android:text="Frutas"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            />
+
+        <TextView
+            android:id="@+id/Ver_todos_campo_frutas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="14dp"
+            android:gravity="right"
+            android:text="ver todos"
+            android:textSize="14dp"/>
+
+        <View
+            android:id="@+id/Seta_ver_todos_frutas"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:paddingLeft="23dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/ic_seta_direita"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearlayoutFrutas2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/LinearlayoutFrutas1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+        <ImageView
+            android:id="@+id/Imagem_frutas_01"
+            android:layout_width="120dp"
+            android:layout_height="105dp"
+            android:layout_weight="1"
+            android:src="@drawable/laranja"/>
+
+        <ImageView
+            android:id="@+id/Imagem_frutas_02"
+            android:layout_width="120dp"
+            android:layout_height="105dp"
+            android:layout_weight="1"
+            android:src="@drawable/milho"/>
+
+        <ImageView
+            android:id="@+id/Imagem_frutas_03"
+            android:layout_width="120dp"
+            android:layout_height="105dp"
+            android:layout_weight="1"
+            android:src="@drawable/morango"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearlayoutFrutas3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/LinearlayoutFrutas2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+        <TextView
+            android:id="@+id/Nome_frutas_01"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="15dp"
+            android:textColor="@color/black"
+            android:text="Laranja"/>
+        <TextView
+            android:id="@+id/Nome_frutas_02"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="15dp"
+            android:textColor="@color/black"
+            android:text="Milho"/>
+        <TextView
+            android:id="@+id/Nome_frutas_03"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:text="Morango"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearlayoutFrutas4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/LinearlayoutFrutas3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+        <TextView
+            android:id="@+id/Valor_frutas_01"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:layout_weight="1"
+            android:textColor="@color/grenn_padrao"
+            android:text="R$ 1,25/uni"/>
+        <TextView
+            android:id="@+id/Valor_frutas_02"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="15dp"
+            android:textColor="@color/grenn_padrao"
+            android:text="R$ 3,50/uni"/>
+        <TextView
+            android:id="@+id/Valor_frutas_03"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="15dp"
+            android:textColor="@color/grenn_padrao"
+            android:text="R$ 16,50/pc"/>
+    </LinearLayout>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
