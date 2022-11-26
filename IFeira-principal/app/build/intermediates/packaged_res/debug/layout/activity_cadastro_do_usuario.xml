@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context=".CadastroDoUsuario">
+
+
+    <Button
+        android:id="@+id/BotaoGoogle"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:paddingLeft="12dp"
+        android:text="Continuar com o Google"
+        android:backgroundTint="#1E90FF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="19dp" />
+
+
+    <EditText
+        android:id="@+id/edit_nome"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/customizacao_do_input"
+        android:hint="Nome completo"
+        android:inputType="text"
+        android:paddingLeft="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/BotaoGoogle" />
+
+    <EditText
+        android:id="@+id/edit_e_mail"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/customizacao_do_input"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edit_nome" />
+
+    <EditText
+        android:id="@+id/edit_dataDeNascimento"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/customizacao_do_input"
+        android:hint="Data de nascimento"
+        android:inputType="text"
+        android:paddingLeft="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edit_e_mail" />
+
+    <EditText
+        android:id="@+id/edit_DDD"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/customizacao_do_input"
+        android:hint="DDD"
+        android:inputType="number"
+        android:paddingLeft="12dp"
+        app:layout_constraintEnd_toStartOf="@id/edit_Celular"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edit_dataDeNascimento" />
+
+    <EditText
+        android:id="@+id/edit_Celular"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="22dp"
+        android:background="@drawable/customizacao_do_input"
+        android:hint="Celular"
+        android:inputType="number"
+        android:paddingLeft="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/edit_DDD"
+        app:layout_constraintTop_toBottomOf="@id/edit_dataDeNascimento" />
+
+    <EditText
+        android:id="@+id/edit_Senha"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/customizacao_do_input"
+        android:drawableRight="@drawable/ic_senha_olhos"
+        android:hint="Senha"
+        android:inputType="text"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edit_Celular" />
+
+
+    <EditText
+        android:id="@+id/edit_RepetirSenha"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/customizacao_do_input"
+        android:drawableRight="@drawable/ic_senha_olhos"
+        android:hint="Repetir senha"
+        android:inputType="textPassword"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edit_Senha" />
+
+
+    <CheckBox
+        android:id="@+id/checkboxDoManterConectado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toStartOf="@id/text_ManterConectado"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edit_RepetirSenha" />
+
+    <CheckBox
+        android:id="@+id/checkboxPromocoes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toStartOf="@id/text_PromocoesDescontos"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/checkboxDoManterConectado" />
+
+    <TextView
+        android:id="@+id/text_ManterConectado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="35dp"
+        android:text="Mantenha-me conectado"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/checkboxDoManterConectado"
+        app:layout_constraintTop_toBottomOf="@id/edit_RepetirSenha" />
+
+    <TextView
+        android:id="@+id/text_PromocoesDescontos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="25dp"
+        android:text="Receber avisos de promoções\ne descontos"
+        android:textSize="16dp"
+        android:textStyle="normal|bold"
+        app:layout_constraintStart_toEndOf="@id/checkboxPromocoes"
+        app:layout_constraintTop_toBottomOf="@id/text_ManterConectado" />
+
+    <Button
+        android:icon="@drawable/ic_senha_olhos"
+        android:id="@+id/Cadastrar"
+        android:layout_width="250dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#228B22"
+        android:text="Cadastrar"
+        android:textStyle="normal|bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_PromocoesDescontos"
+        />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

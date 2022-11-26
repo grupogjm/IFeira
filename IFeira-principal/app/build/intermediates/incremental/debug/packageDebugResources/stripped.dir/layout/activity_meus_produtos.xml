@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MeusProdutos">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/LayoutToobar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include
+            android:id="@+id/Toolbar"
+            layout="@layout/toolbar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+        </include>
+
+        <View
+            android:id="@+id/Icone_voltar"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@drawable/ic_seta_esquerda"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="@id/Toolbar">
+        </View>
+
+        <EditText
+            android:id="@+id/Edit_pesquisa"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingLeft="11dp"
+            android:paddingBottom="5dp"
+            android:hint="Pesquisar"
+            android:textColor="@color/black"
+            android:background="@drawable/back_do_pesquisar_fundo_cinza"
+            app:layout_constraintTop_toTopOf="@id/Toolbar"
+            app:layout_constraintStart_toEndOf="@id/Icone_voltar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="@id/Toolbar"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/Text_quantidade_de_produtos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="right"
+        android:text="3 Produtos"
+        android:textStyle="bold"
+        android:textColor="@color/grenn_padrao"
+        android:textSize="20dp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/LayoutProduto01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/Imagem_produto1"
+            android:layout_width="120dp"
+            android:layout_height="105dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/frutasvariadas"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <TextView
+            android:id="@+id/Text_nome_produto1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Frutas variadas"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@id/Imagem_produto1"/>
+
+        <TextView
+            android:id="@+id/Tipo_produto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="5dp"
+            android:text="Fruta"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            app:layout_constraintTop_toBottomOf="@id/Text_nome_produto1"
+            app:layout_constraintStart_toEndOf="@id/Imagem_produto1"/>
+
+        <TextView
+            android:id="@+id/Text_valor_produto1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="R$ 7,00/uni"
+            android:textColor="@color/vermelho_vinho"
+            android:textSize="14dp"
+            app:layout_constraintTop_toBottomOf="@id/Tipo_produto"
+            app:layout_constraintStart_toEndOf="@id/Imagem_produto1"/>
+
+        <TextView
+            android:id="@+id/Text_status_produtos1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="2dp"
+            android:text="ativo"
+            android:textStyle="bold"
+            android:textColor="@color/grenn_padrao"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <TextView
+            android:id="@+id/Text_descricao_produto1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Aqui estará uma pequena descrição do pro
+            dutos entre outras coisas que o vendedor quiser infom..."
+            app:layout_constraintTop_toBottomOf="@id/Text_valor_produto1"
+            app:layout_constraintStart_toEndOf="@id/Imagem_produto1"/>
+
+        <View
+            android:id="@+id/Linha_cima1"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@color/cinza"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@id/Imagem_produto1"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <View
+            android:id="@+id/Linha_baixo1"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@color/cinza"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/Imagem_produto1"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/LayoutProduto02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp">
+
+        <ImageView
+            android:id="@+id/Imagem_produto2"
+            android:layout_width="120dp"
+            android:layout_height="105dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/cheiro_verde_salsinha_cebolinha_compressed"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <TextView
+            android:id="@+id/Text_nome_produto2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Cheiro verde"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@id/Imagem_produto2"/>
+
+        <TextView
+            android:id="@+id/Tipo_produto2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="5dp"
+            android:text="Vegetal"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            app:layout_constraintTop_toBottomOf="@id/Text_nome_produto2"
+            app:layout_constraintStart_toEndOf="@id/Imagem_produto2"/>
+
+        <TextView
+            android:id="@+id/Text_valor_produto2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="R$ 2,00/uni"
+            android:textColor="@color/vermelho_vinho"
+            android:textSize="14dp"
+            app:layout_constraintTop_toBottomOf="@id/Tipo_produto2"
+            app:layout_constraintStart_toEndOf="@id/Imagem_produto2"/>
+
+        <TextView
+            android:id="@+id/Text_status_produtos2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="2dp"
+            android:text="ativo"
+            android:textStyle="bold"
+            android:textColor="@color/grenn_padrao"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <TextView
+            android:id="@+id/Text_descricao_produto2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Aqui estará uma pequena descrição do pro
+            dutos entre outras coisas que o vendedor quiser infom..."
+            app:layout_constraintTop_toBottomOf="@id/Text_valor_produto2"
+            app:layout_constraintStart_toEndOf="@id/Imagem_produto2"/>
+
+        <View
+            android:id="@+id/Linha_cima2"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@color/cinza"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@id/Imagem_produto2"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <View
+            android:id="@+id/Linha_baixo2"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@color/cinza"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/Imagem_produto2"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/LayoutProduto03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp">
+
+        <ImageView
+            android:id="@+id/Imagem_produto3"
+            android:layout_width="120dp"
+            android:layout_height="105dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/macas"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <TextView
+            android:id="@+id/Text_nome_produto3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Maçãs"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@id/Imagem_produto3"/>
+
+        <TextView
+            android:id="@+id/Tipo_produto3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="5dp"
+            android:text="Fruta"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            app:layout_constraintTop_toBottomOf="@id/Text_nome_produto3"
+            app:layout_constraintStart_toEndOf="@id/Imagem_produto3"/>
+
+        <TextView
+            android:id="@+id/Text_valor_produto3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="R$ 0,75/uni"
+            android:textColor="@color/vermelho_vinho"
+            android:textSize="14dp"
+            app:layout_constraintTop_toBottomOf="@id/Tipo_produto3"
+            app:layout_constraintStart_toEndOf="@id/Imagem_produto3"/>
+
+        <TextView
+            android:id="@+id/Text_status_produtos3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="2dp"
+            android:text="inativo"
+            android:textStyle="bold"
+            android:textColor="@color/cinza_escuro"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <TextView
+            android:id="@+id/Text_descricao_produto3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Aqui estará uma pequena descrição do pro\ndutos entre outras coisas que o vendedor quiser infom..."
+            app:layout_constraintTop_toBottomOf="@id/Text_valor_produto3"
+            app:layout_constraintStart_toEndOf="@id/Imagem_produto3"/>
+
+        <View
+            android:id="@+id/Linha_cima3"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@color/cinza"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@id/Imagem_produto3"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <View
+            android:id="@+id/Linha_baixo3"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@color/cinza"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/Imagem_produto3"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

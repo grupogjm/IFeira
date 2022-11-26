@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintCart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <include
+            android:id="@+id/Toolbar"
+            layout="@layout/toolbar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+        </include>
+        <View
+            android:id="@+id/Icone_voltar"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@drawable/ic_seta_esquerda"
+            app:layout_constraintTop_toTopOf="@id/Toolbar"
+            app:layout_constraintStart_toStartOf="@id/Toolbar"
+            app:layout_constraintBottom_toBottomOf="@id/Toolbar">
+        </View>
+
+        <TextView
+            android:id="@+id/Text_chat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="18dp"
+            android:text="Carrinho"
+            android:textSize="20dp"
+            android:textColor="@color/grenn_padrao"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="@id/Toolbar"
+            app:layout_constraintEnd_toEndOf="@id/Toolbar"
+            app:layout_constraintBottom_toBottomOf="@id/Toolbar"/>
+
+        <ImageView
+            android:id="@+id/imageProduct1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Toolbar"
+            app:srcCompat="@drawable/ic_launcher_background" />
+
+        <ImageView
+            android:id="@+id/imageProduct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            app:layout_constraintStart_toStartOf="@+id/imageProduct1"
+            app:layout_constraintTop_toBottomOf="@+id/imageProduct1"
+            app:srcCompat="@drawable/ic_launcher_background" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="129dp"
+            android:layout_height="65dp"
+            android:paddingStart="10dp"
+            android:text="nome do produto blablablablablablabla"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/imageProduct1"
+            app:layout_constraintTop_toTopOf="@+id/imageProduct1" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="129dp"
+            android:layout_height="65dp"
+            android:paddingStart="10dp"
+            android:text="nome do produto blablablablablablabla"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/imageProduct"
+            app:layout_constraintTop_toTopOf="@+id/imageProduct" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="132dp"
+            android:layout_height="35dp"
+            android:paddingStart="10dp"
+            android:text="R$999,99"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/textView10"
+            app:layout_constraintStart_toEndOf="@+id/imageProduct1"
+            app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="132dp"
+            android:layout_height="35dp"
+            android:paddingStart="10dp"
+            android:text="R$999,99"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/textView10"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageProduct"
+            app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="80dp"
+            android:layout_height="47dp"
+            android:gravity="center"
+            android:text="quantidade: 200"
+            app:layout_constraintEnd_toEndOf="@+id/textView18"
+            app:layout_constraintTop_toTopOf="@+id/imageProduct1" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="80dp"
+            android:layout_height="47dp"
+            android:gravity="center"
+            android:text="quantidade: 200"
+            app:layout_constraintEnd_toEndOf="@+id/textView18"
+            app:layout_constraintTop_toTopOf="@+id/imageProduct" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="28dp"
+            android:layout_marginBottom="12dp"
+            android:text="remover item"
+            app:layout_constraintBottom_toBottomOf="@+id/imageProduct1"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="remover item"
+            app:layout_constraintBottom_toBottomOf="@+id/imageProduct"
+            app:layout_constraintEnd_toEndOf="@+id/textView23" />
+
+        <Button
+            android:id="@+id/Botao_Confirmar_pedido_carrinho"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="FINALIZAR PEDIDO"
+            app:layout_constraintStart_toStartOf="@+id/textView25"
+            app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="88dp"
+            android:text="total: R$999,99"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/imageProduct"
+            app:layout_constraintTop_toBottomOf="@+id/imageProduct" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="limpar carrinho"
+            app:layout_constraintEnd_toEndOf="@+id/textView24"
+            app:layout_constraintTop_toTopOf="@+id/textView25" />
+
+        <androidx.constraintlayout.widget.Barrier
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:barrierDirection="top"
+            tools:layout_editor_absoluteX="40dp"
+            tools:layout_editor_absoluteY="373dp" />
+
+        <androidx.constraintlayout.widget.Barrier
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:barrierDirection="top"
+            tools:layout_editor_absoluteX="17dp"
+            tools:layout_editor_absoluteY="392dp" />
+
+        <androidx.constraintlayout.widget.Group
+            android:layout_width="50dp"
+            android:layout_height="38dp"
+            tools:layout_editor_absoluteX="221dp"
+            tools:layout_editor_absoluteY="77dp" />
+
+        <androidx.constraintlayout.widget.Group
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="198dp"
+            tools:layout_editor_absoluteY="61dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

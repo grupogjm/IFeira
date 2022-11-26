@@ -124,54 +124,50 @@
 
     <CheckBox
         android:id="@+id/checkboxDoManterConectado"
-        android:layout_width="24dp"
-        android:layout_height="24dp"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
         android:layout_marginLeft="50dp"
         android:layout_marginTop="30dp"
+        android:theme="@style/checkBoxStyleGrey"
         app:layout_constraintEnd_toStartOf="@id/text_ManterConectado"
         app:layout_constraintHorizontal_bias="0.9"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/edit_RepetirSenha"
-        android:theme="@style/checkBoxStyleGrey"
-        />
+        app:layout_constraintTop_toBottomOf="@id/edit_RepetirSenha" />
 
     <CheckBox
         android:id="@+id/checkboxPromocoes"
-        android:layout_width="24dp"
-        android:layout_height="24dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
         android:layout_marginLeft="50dp"
-        app:layout_constraintEnd_toStartOf="@id/text_PromocoesDescontos"
-        app:layout_constraintHorizontal_bias="0.9"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/checkboxDoManterConectado"
+        android:layout_marginTop="16dp"
         android:theme="@style/checkBoxStyleGrey"
-        />
+        app:layout_constraintEnd_toStartOf="@id/text_PromocoesDescontos"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/checkboxDoManterConectado" />
 
     <TextView
         android:id="@+id/text_ManterConectado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:layout_marginLeft="5dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="44dp"
         android:text="Mantenha-me conectado"
         android:textSize="16dp"
         android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@id/edit_RepetirSenha"
         app:layout_constraintStart_toEndOf="@id/checkboxDoManterConectado"
-        tools:layout_editor_absoluteX="74dp" />
+        app:layout_constraintTop_toBottomOf="@id/edit_RepetirSenha" />
 
     <TextView
         android:id="@+id/text_PromocoesDescontos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:layout_marginLeft="5dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="36dp"
         android:text="Receber avisos de promoções\ne descontos"
         android:textSize="16dp"
         android:textStyle="normal|bold"
-        app:layout_constraintTop_toBottomOf="@id/text_ManterConectado"
-        app:layout_constraintStart_toEndOf="@id/checkboxPromocoes" />
+        app:layout_constraintStart_toEndOf="@id/checkboxPromocoes"
+        app:layout_constraintTop_toBottomOf="@id/text_ManterConectado" />
 
     <Button
         android:icon="@drawable/ic_senha_olhos"
