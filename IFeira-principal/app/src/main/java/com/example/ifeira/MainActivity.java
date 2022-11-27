@@ -27,6 +27,9 @@ public class MainActivity extends AppCompatActivity {
         View Imagem_frutas_01;
         View Imagem_frutas_02;
         View Imagem_frutas_03;
+        View Seta_endereco;
+
+        Seta_endereco = findViewById(R.id.Seta_endereco);
 
         Imagem_frutas_01 = findViewById(R.id.Imagem_frutas_01);
         Imagem_frutas_02 = findViewById(R.id.Imagem_frutas_02);
@@ -40,6 +43,13 @@ public class MainActivity extends AppCompatActivity {
         home = findViewById(R.id.View_icone_home);
         historico = findViewById(R.id.View_icone_hitorico);
         tresBarras = findViewById(R.id.View_ic_tres_linhas);
+
+        Seta_endereco.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, TelaLoginCadastro.class);
+                startActivity(i);
+            }
+        });
 
         Imagem_frutas_01.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" >
+    xmlns:tools="http://schemas.android.com/tools">
 
     <application
         android:allowBackup="true"
@@ -11,28 +11,59 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
-        tools:targetApi="31" >
-
-
+        tools:targetApi="31">
+        <activity
+            android:name=".TelaLoginCadastro"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".HorariosDetalhes"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".SobreDetalhes"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Recovery"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Login"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
         <activity
             android:name=".MeusProdutos"
-            android:exported="false" >
+            android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-
         <activity
             android:name=".TelaDeConversas"
-            android:exported="false" >
+            android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-
         <activity
             android:name=".MenuLateral"
-            android:exported="false" >
+            android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -40,7 +71,7 @@
         <activity
             android:name=".MeusPedidos"
             android:exported="false"
-            android:label="MeusPedidos" >
+            android:label="MeusPedidos">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -48,7 +79,7 @@
         <activity
             android:name=".PerfilUsuario"
             android:exported="false"
-            android:label="PerfilUsuario" >
+            android:label="PerfilUsuario">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -56,7 +87,7 @@
         <activity
             android:name=".PerfilVendedor"
             android:exported="false"
-            android:label="PerfilVendedor" >
+            android:label="PerfilVendedor">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -64,7 +95,7 @@
         <activity
             android:name=".TelaProduto"
             android:exported="false"
-            android:label="TelaProduto" >
+            android:label="TelaProduto">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -72,7 +103,7 @@
         <activity
             android:name=".Carrinho"
             android:exported="false"
-            android:label="Carrinho" >
+            android:label="Carrinho">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -80,7 +111,7 @@
         <activity
             android:name=".TelaDePagamento"
             android:exported="false"
-            android:label="Pagamento" >
+            android:label="Pagamento">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -88,7 +119,7 @@
         <activity
             android:name=".HistoricoDePedidos"
             android:exported="false"
-            android:label="Histórico de Pedidos" >
+            android:label="Histórico de Pedidos">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -96,14 +127,14 @@
         <activity
             android:name=".CadastroDoUsuario"
             android:exported="false"
-            android:label="Cadastro" >
+            android:label="Cadastro">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

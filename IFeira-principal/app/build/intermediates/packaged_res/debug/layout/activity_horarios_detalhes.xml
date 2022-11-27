@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Add toolbar here -->
+
+    <!-- Add a NavBar here -->
+
+    <TextView
+        android:id="@+id/nomeLoja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.059"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Produtos da Amazônia" />
+
+    <TextView
+        android:id="@+id/regiaoLoja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/nomeLoja"
+        app:layout_constraintTop_toBottomOf="@+id/nomeLoja"
+        tools:text="Manaus Moderna ∙ 7,1 km" />
+
+    <ImageView
+        android:id="@+id/lojaImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintStart_toEndOf="@+id/nomeLoja"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/segunda_feira"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/regiaoLoja"
+        tools:text="Segunda-feira" />
+
+    <TextView
+        android:id="@+id/segunda_feira_horario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginStart="30dp"
+        app:layout_constraintStart_toEndOf="@+id/segunda_feira"
+        app:layout_constraintTop_toBottomOf="@+id/regiaoLoja"
+        tools:text="07:00 - 20:00" />
+
+    <TextView
+        android:id="@+id/terca_feira"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/segunda_feira"
+        tools:text="Terça-feira" />
+
+    <TextView
+        android:id="@+id/terca_feira_horario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="30dp"
+        app:layout_constraintStart_toEndOf="@+id/segunda_feira"
+        app:layout_constraintTop_toBottomOf="@+id/segunda_feira_horario"
+        tools:text="07:00 - 20:00" />
+
+    <TextView
+        android:id="@+id/quarta_feira"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/terca_feira"
+        tools:text="Quarta-feira" />
+
+    <TextView
+        android:id="@+id/quarta_feira_horario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/segunda_feira"
+        app:layout_constraintTop_toBottomOf="@+id/terca_feira_horario"
+        tools:text="fechado" />
+
+    <TextView
+        android:id="@+id/quinta_feira"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quarta_feira"
+        tools:text="Quinta-feira" />
+
+    <TextView
+        android:id="@+id/quinta_feira_horario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/segunda_feira"
+        app:layout_constraintTop_toBottomOf="@+id/quarta_feira_horario"
+        tools:text="07:00 - 20:00" />
+
+    <TextView
+        android:id="@+id/sexta_feira"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quinta_feira"
+        tools:text="Sexta-feira" />
+
+    <TextView
+        android:id="@+id/sexta_feira_horario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/segunda_feira"
+        app:layout_constraintTop_toBottomOf="@+id/quinta_feira_horario"
+        tools:text="07:00 - 20:00" />
+
+    <TextView
+        android:id="@+id/sabado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sexta_feira"
+        tools:text="Sábado" />
+
+    <TextView
+        android:id="@+id/sabado_horario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/segunda_feira"
+        app:layout_constraintTop_toBottomOf="@+id/sexta_feira_horario"
+        tools:text="08:00 - 22:00" />
+
+    <TextView
+        android:id="@+id/domingo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sabado"
+        tools:text="Domingo" />
+
+    <TextView
+        android:id="@+id/domingo_horario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/segunda_feira"
+        app:layout_constraintTop_toBottomOf="@+id/sabado_horario"
+        tools:text="08:00 - 22:00" />
+
+    <TextView
+        android:id="@+id/Feriados"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/domingo"
+        tools:text="Feriados" />
+
+    <TextView
+        android:id="@+id/feriados_horario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/segunda_feira"
+        app:layout_constraintTop_toBottomOf="@+id/domingo_horario"
+        tools:text="08:00 - 22:00" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

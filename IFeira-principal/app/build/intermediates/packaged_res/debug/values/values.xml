@@ -1,21 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="baby_blue">#7E6EE0</color>
     <color name="black">#FF000000</color>
     <color name="branco">#FFFAFA</color>
     <color name="branco_cinza">#F5F5F5</color>
     <color name="cinza">@android:color/darker_gray</color>
     <color name="cinza_escuro">#666666</color>
     <color name="cinza_mais_claro">	#D3D3D3</color>
+    <color name="colorPrimary">#50C300</color>
+    <color name="colorPrimaryDark">#44A600</color>
+    <color name="colorSecondary">#C80000</color>
     <color name="grennButton">#228B22</color>
     <color name="grenn_padrao">#235411</color>
+    <color name="pink_primary">#D378E0</color>
+    <color name="pink_primary_dark">#A64DB6</color>
+    <color name="pink_primary_light">#F4A7F9</color>
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
+    <color name="salmon">#E08498</color>
+    <color name="snow">#ECEBEB</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="vermelho_vinho">#A52A2A</color>
     <color name="very_light_cinza">#DCDCDC</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="yellow_primary">#E0DC90</color>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
@@ -23,7 +33,10 @@
     <dimen name="nav_header_vertical_spacing">8dp</dimen>
     <string name="action_settings">Settings</string>
     <string name="app_name">IFeira</string>
+    <string name="email">E-mail</string>
+    <string name="forgot_password">recovery password</string>
     <string name="google_sign_up">Continuar com o Google</string>
+    <string name="login">Login</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_home">Home</string>
     <string name="menu_slideshow">Slideshow</string>
@@ -32,6 +45,10 @@
     <string name="nav_header_title">Android Studio</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="password">Password</string>
+    <string name="proceed">Proceed</string>
+    <string name="recovery_label">To recover your password enter your email</string>
+    <string name="send">Send</string>
     <string name="title_activity_teste_teste_menu">TesteTesteMenu</string>
     <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
     <style name="NoActionBar">

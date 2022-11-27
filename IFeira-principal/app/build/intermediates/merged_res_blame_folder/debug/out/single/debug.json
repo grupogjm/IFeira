@@ -1,7 +1,15 @@
 [
     {
+        "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-merged_res-45:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-47:\\layout\\activity_login.xml"
+    },
+    {
         "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-merged_res-45:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-47:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-merged_res-45:\\layout_activity_tela_login_cadastro.xml.flat",
+        "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-47:\\layout\\activity_tela_login_cadastro.xml"
     },
     {
         "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-merged_res-45:\\drawable_frutasvariadas.jpg.flat",
@@ -20,10 +28,6 @@
         "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-47:\\drawable\\ic_search_24.xml"
     },
     {
-        "merged": "com.example.ifeira.app-merged_res-45:/layout_activity_meus_produtos.xml.flat",
-        "source": "com.example.ifeira.app-main-47:/layout/activity_meus_produtos.xml"
-    },
-    {
         "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-merged_res-45:\\mipmap-hdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-47:\\mipmap-hdpi\\ic_launcher.webp"
     },
@@ -38,6 +42,10 @@
     {
         "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-merged_res-45:\\mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-47:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-merged_res-45:\\layout_activity_horarios_detalhes.xml.flat",
+        "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-47:\\layout\\activity_horarios_detalhes.xml"
     },
     {
         "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-merged_res-45:\\drawable_milho.png.flat",
@@ -84,6 +92,10 @@
         "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-47:\\drawable\\back_cinza_quadrado.xml"
     },
     {
+        "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-merged_res-45:\\layout_activity_sobre_detalhes.xml.flat",
+        "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-47:\\layout\\activity_sobre_detalhes.xml"
+    },
+    {
         "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-merged_res-45:\\drawable_ic_carrinho.xml.flat",
         "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-47:\\drawable\\ic_carrinho.xml"
     },
@@ -122,6 +134,10 @@
     {
         "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-merged_res-45:\\drawable_macas.jpg.flat",
         "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-47:\\drawable\\macas.jpg"
+    },
+    {
+        "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-merged_res-45:\\layout_activity_recovery.xml.flat",
+        "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-47:\\layout\\activity_recovery.xml"
     },
     {
         "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-merged_res-45:\\drawable_imagem_layout.xml.flat",
@@ -260,12 +276,16 @@
         "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-47:\\drawable\\ic_menu_slideshow.xml"
     },
     {
-        "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-merged_res-45:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-47:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.ifeira.app-merged_res-45:/layout_activity_login.xml.flat",
+        "source": "com.example.ifeira.app-main-47:/layout/activity_login.xml"
     },
     {
         "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-merged_res-45:\\layout_perfil_usuario.xml.flat",
         "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-47:\\layout\\perfil_usuario.xml"
+    },
+    {
+        "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-merged_res-45:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-47:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-merged_res-45:\\drawable_back_do_total_pedido.xml.flat",

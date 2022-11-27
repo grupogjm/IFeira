@@ -38,11 +38,11 @@ com.example.ifeira.app-transition-1.4.1-36 C:\Users\moise\.gradle\caches\transfo
 com.example.ifeira.app-lifecycle-livedata-core-2.5.1-37 C:\Users\moise\.gradle\caches\transforms-3\f8376e3cbb76e3fb2cb2fb8cf937bb50\transformed\lifecycle-livedata-core-2.5.1\res
 com.example.ifeira.app-play-services-base-18.0.1-38 C:\Users\moise\.gradle\caches\transforms-3\fb5a38ad8e3f436adf4a77ea6a97bd32\transformed\play-services-base-18.0.1\res
 com.example.ifeira.app-startup-runtime-1.1.1-39 C:\Users\moise\.gradle\caches\transforms-3\fbb7e7ed708036550bb850b8fc74094c\transformed\startup-runtime-1.1.1\res
-com.example.ifeira.app-pngs-40 C:\Users\moise\Documents\Salvos IFeira\IFeira-20.11-remoto\IFeira-main\IFeira\app\build\generated\res\pngs\debug
-com.example.ifeira.app-resValues-41 C:\Users\moise\Documents\Salvos IFeira\IFeira-20.11-remoto\IFeira-main\IFeira\app\build\generated\res\resValues\debug
-com.example.ifeira.app-rs-42 C:\Users\moise\Documents\Salvos IFeira\IFeira-20.11-remoto\IFeira-main\IFeira\app\build\generated\res\rs\debug
-com.example.ifeira.app-packageDebugResources-43 C:\Users\moise\Documents\Salvos IFeira\IFeira-20.11-remoto\IFeira-main\IFeira\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.example.ifeira.app-packageDebugResources-44 C:\Users\moise\Documents\Salvos IFeira\IFeira-20.11-remoto\IFeira-main\IFeira\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.example.ifeira.app-merged_res-45 C:\Users\moise\Documents\Salvos IFeira\IFeira-20.11-remoto\IFeira-main\IFeira\app\build\intermediates\merged_res\debug
-com.example.ifeira.app-debug-46 C:\Users\moise\Documents\Salvos IFeira\IFeira-20.11-remoto\IFeira-main\IFeira\app\src\debug\res
-com.example.ifeira.app-main-47 C:\Users\moise\Documents\Salvos IFeira\IFeira-20.11-remoto\IFeira-main\IFeira\app\src\main\res
+com.example.ifeira.app-pngs-40 D:\programacao\my_programas\IFeira\IFeira-principal\app\build\generated\res\pngs\debug
+com.example.ifeira.app-resValues-41 D:\programacao\my_programas\IFeira\IFeira-principal\app\build\generated\res\resValues\debug
+com.example.ifeira.app-rs-42 D:\programacao\my_programas\IFeira\IFeira-principal\app\build\generated\res\rs\debug
+com.example.ifeira.app-packageDebugResources-43 D:\programacao\my_programas\IFeira\IFeira-principal\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.ifeira.app-packageDebugResources-44 D:\programacao\my_programas\IFeira\IFeira-principal\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.ifeira.app-merged_res-45 D:\programacao\my_programas\IFeira\IFeira-principal\app\build\intermediates\merged_res\debug
+com.example.ifeira.app-debug-46 D:\programacao\my_programas\IFeira\IFeira-principal\app\src\debug\res
+com.example.ifeira.app-main-47 D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\res

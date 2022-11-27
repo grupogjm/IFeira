@@ -16,4 +16,14 @@
     <color name="very_light_cinza">#DCDCDC</color>
     <color name="cinza_escuro">#666666</color>
     <color name="grenn_padrao">#235411</color>
+    <color name="pink_primary">#D378E0</color>
+    <color name="pink_primary_dark">#A64DB6</color>
+    <color name="pink_primary_light">#F4A7F9</color>
+    <color name="yellow_primary">#E0DC90</color>
+    <color name="salmon">#E08498</color>
+    <color name="baby_blue">#7E6EE0</color>
+    <color name="colorPrimary">#50C300</color>
+    <color name="colorPrimaryDark">#44A600</color>
+    <color name="colorSecondary">#C80000</color>
+    <color name="snow">#ECEBEB</color>
 </resources>
