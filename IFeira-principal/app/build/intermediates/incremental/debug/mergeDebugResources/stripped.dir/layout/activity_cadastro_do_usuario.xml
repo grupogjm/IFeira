@@ -200,7 +200,7 @@
             android:layout_marginTop="10dp"
             android:background="@drawable/customizacao_do_input"
             android:hint="Numero da casa"
-            android:inputType="text"
+            android:inputType="text|number"
             android:paddingLeft="12dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

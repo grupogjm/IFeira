@@ -29,6 +29,13 @@
         android:testOnly="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
         <activity
+            android:name="com.example.ifeira.CadastrarProdutos"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name="com.example.ifeira.TodasFrutas"
             android:exported="false" >
             <meta-data

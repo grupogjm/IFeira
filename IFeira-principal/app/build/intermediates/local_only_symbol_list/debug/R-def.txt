@@ -82,6 +82,8 @@ id Botao_Login
 id Botao_comprar
 id Botao_confirmar_pedido
 id Button_entrar
+id Button_enviar
+id Button_foto
 id Cadastrar
 id Campo_Frutas
 id Campo_de_entrega
@@ -100,6 +102,10 @@ id Edit_Cidade
 id Edit_Email_login
 id Edit_Rua
 id Edit_Senha_login
+id Edit_TipoProduto
+id Edit_ValorProduto
+id Edit_descricao
+id Edit_nomeProduto
 id Edit_numeroCasa
 id Edit_pesquisa
 id Endereco
@@ -117,6 +123,7 @@ id Icone_conversa3
 id Icone_para_voltar
 id Icone_voltar
 id Icone_x
+id ImagemView_foto
 id Imagem_desconto_01
 id Imagem_desconto_02
 id Imagem_desconto_03
@@ -174,6 +181,7 @@ id LayoutProduto03
 id LayoutToobar
 id Layout_Chat
 id Layout_Sair
+id Layout_cadastrarProduto
 id Layout_hitorico
 id Layout_meus_produtos
 id Layout_perfil_usuario
@@ -260,6 +268,7 @@ id Nome_total_pedido
 id Nome_usuario
 id Quantidade_detalhe
 id ScrollViewPromocoes
+id Seta
 id Seta_endereco_entrega
 id Seta_informacoes_pagamento
 id Seta_ver_todos_frutas
@@ -461,6 +470,7 @@ id userRating
 id userRatingText
 id valor12
 id welcome
+layout activity_cadastrar_produtos
 layout activity_cadastro_do_usuario
 layout activity_historico_de_pedidos
 layout activity_horarios_detalhes

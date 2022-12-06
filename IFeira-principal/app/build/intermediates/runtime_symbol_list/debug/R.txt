@@ -2804,6 +2804,8 @@ int id Botao_Login 0x7f080005
 int id Botao_comprar 0x7f080006
 int id Botao_confirmar_pedido 0x7f080007
 int id Button_entrar 0x7f080009
+int id Button_enviar 0x7f080372
+int id Button_foto 0x7f080373
 int id CTRL 0x7f08000a
 int id Cadastrar 0x7f08000b
 int id Campo_Frutas 0x7f08000c
@@ -2823,6 +2825,10 @@ int id Edit_Cidade 0x7f080019
 int id Edit_Email_login 0x7f08001a
 int id Edit_Rua 0x7f08036e
 int id Edit_Senha_login 0x7f08001b
+int id Edit_TipoProduto 0x7f080374
+int id Edit_ValorProduto 0x7f080375
+int id Edit_descricao 0x7f080376
+int id Edit_nomeProduto 0x7f080377
 int id Edit_numeroCasa 0x7f08001c
 int id Edit_pesquisa 0x7f08001d
 int id Endereco 0x7f08001e
@@ -2841,6 +2847,7 @@ int id Icone_conversa3 0x7f08002a
 int id Icone_para_voltar 0x7f08002b
 int id Icone_voltar 0x7f08002c
 int id Icone_x 0x7f08002d
+int id ImagemView_foto 0x7f08037a
 int id Imagem_desconto_01 0x7f08002e
 int id Imagem_desconto_02 0x7f08002f
 int id Imagem_desconto_03 0x7f080030
@@ -2898,6 +2905,7 @@ int id LayoutProduto03 0x7f080063
 int id LayoutToobar 0x7f080064
 int id Layout_Chat 0x7f080065
 int id Layout_Sair 0x7f080066
+int id Layout_cadastrarProduto 0x7f080378
 int id Layout_hitorico 0x7f080067
 int id Layout_meus_produtos 0x7f080068
 int id Layout_perfil_usuario 0x7f080069
@@ -2991,6 +2999,7 @@ int id SHOW_PATH 0x7f0800c0
 int id SHOW_PROGRESS 0x7f0800c1
 int id SYM 0x7f0800c2
 int id ScrollViewPromocoes 0x7f0800c3
+int id Seta 0x7f080379
 int id Seta_endereco_entrega 0x7f0800c4
 int id Seta_informacoes_pagamento 0x7f0800c5
 int id Seta_ver_todos_frutas 0x7f0800c6
@@ -3799,6 +3808,7 @@ int layout abc_search_dropdown_item_icons_2line 0x7f0b0018
 int layout abc_search_view 0x7f0b0019
 int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
+int layout activity_cadastrar_produtos 0x7f0b007c
 int layout activity_cadastro_do_usuario 0x7f0b001c
 int layout activity_historico_de_pedidos 0x7f0b001d
 int layout activity_horarios_detalhes 0x7f0b001e

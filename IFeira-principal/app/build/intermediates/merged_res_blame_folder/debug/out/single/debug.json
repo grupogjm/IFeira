@@ -32,12 +32,16 @@
         "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-50:\\drawable\\icone_legumes.png"
     },
     {
+        "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-merged_res-48:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-50:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
         "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-merged_res-48:\\drawable_ic_seta_esquerda.xml.flat",
         "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-50:\\drawable\\ic_seta_esquerda.xml"
     },
     {
-        "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-merged_res-48:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-50:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-merged_res-48:\\layout_activity_cadastrar_produtos.xml.flat",
+        "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-50:\\layout\\activity_cadastrar_produtos.xml"
     },
     {
         "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-merged_res-48:\\drawable_varios_vegetais.png.flat",

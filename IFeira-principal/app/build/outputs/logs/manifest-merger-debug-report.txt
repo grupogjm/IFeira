@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:2:1-165:12
-INJECTED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:2:1-165:12
-INJECTED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:2:1-165:12
-INJECTED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:2:1-165:12
+ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:2:1-171:12
+INJECTED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:2:1-171:12
+INJECTED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:2:1-171:12
+INJECTED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:2:1-171:12
 MERGED from [androidx.databinding:viewbinding:7.3.0] C:\Users\moise\.gradle\caches\transforms-3\79837fe9a7f5bdd0cdb7653fd52a6e86\transformed\viewbinding-7.3.0\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.navigation:navigation-ui:2.5.3] C:\Users\moise\.gradle\caches\transforms-3\0d8a427ec25659673ef42dcc530c3d55\transformed\navigation-ui-2.5.3\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.7.0] C:\Users\moise\.gradle\caches\transforms-3\a43913465a7046b6ede2cc444d0a5f3d\transformed\material-1.7.0\AndroidManifest.xml:17:1-26:12
@@ -85,27 +85,27 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\moise\.gradle\ca
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\moise\.gradle\caches\transforms-3\278dc29f0623aadea82d99de2f6d77a6\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\moise\.gradle\caches\transforms-3\0bec845f6b293929bb6bcf403f1ceaec\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\moise\.gradle\caches\transforms-3\294ce4756884f83db0ec41d640c8fc3e\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:2:1-165:12
-INJECTED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:2:1-165:12
-INJECTED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:2:1-165:12
+INJECTED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:2:1-171:12
+INJECTED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:2:1-171:12
+INJECTED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:2:1-171:12
 	package
 		INJECTED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml
-		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:2:1-165:12
+		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:2:1-171:12
 		INJECTED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml
-		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:2:1-165:12
+		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:2:1-171:12
 		INJECTED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml
-		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:2:1-165:12
+		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:2:1-171:12
 		INJECTED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:5:5-163:19
+ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:5:5-169:19
 MERGED from [com.google.android.material:material:1.7.0] C:\Users\moise\.gradle\caches\transforms-3\a43913465a7046b6ede2cc444d0a5f3d\transformed\material-1.7.0\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.7.0] C:\Users\moise\.gradle\caches\transforms-3\a43913465a7046b6ede2cc444d0a5f3d\transformed\material-1.7.0\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\moise\.gradle\caches\transforms-3\316225dc7362f218cf7ef7d82990e173\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -184,152 +184,158 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\mo
 		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:13:9-65
 	android:dataExtractionRules
 		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:7:9-65
-activity#com.example.ifeira.TodasFrutas
+activity#com.example.ifeira.CadastrarProdutos
 ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:15:9-21:20
 	android:exported
 		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:17:13-37
 	android:name
-		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:16:13-40
+		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:16:13-46
 meta-data#android.app.lib_name
 ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:18:13-20:36
 	android:value
 		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:20:17-33
 	android:name
 		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:19:17-52
-activity#com.example.ifeira.TodosLegumes
+activity#com.example.ifeira.TodasFrutas
 ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:22:9-28:20
 	android:exported
 		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:24:13-37
 	android:name
-		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:23:13-41
+		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:23:13-40
+activity#com.example.ifeira.TodosLegumes
+ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:29:9-35:20
+	android:exported
+		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:30:13-41
 activity#com.example.ifeira.TelaLoginCadastro
-ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:29:9-41:20
+ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:36:9-48:20
 	android:exported
-		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:31:13-36
+		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:38:13-36
 	android:name
-		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:30:13-46
+		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:37:13-46
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:32:13-36:29
+ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:39:13-43:29
 action#android.intent.action.MAIN
-ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:33:17-69
+ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:40:17-69
 	android:name
-		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:33:25-66
+		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:40:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:35:17-77
+ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:42:17-77
 	android:name
-		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:35:27-74
+		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:42:27-74
 activity#com.example.ifeira.HorariosDetalhes
-ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:42:9-48:20
-	android:exported
-		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:44:13-37
-	android:name
-		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:43:13-45
-activity#com.example.ifeira.SobreDetalhes
 ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:49:9-55:20
 	android:exported
 		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:51:13-37
 	android:name
-		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:50:13-42
-activity#com.example.ifeira.Recovery
+		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:50:13-45
+activity#com.example.ifeira.SobreDetalhes
 ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:56:9-62:20
 	android:exported
 		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:58:13-37
 	android:name
-		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:57:13-37
-activity#com.example.ifeira.Login
+		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:57:13-42
+activity#com.example.ifeira.Recovery
 ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:63:9-69:20
 	android:exported
 		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:65:13-37
 	android:name
-		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:64:13-34
-activity#com.example.ifeira.MeusProdutos
+		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:64:13-37
+activity#com.example.ifeira.Login
 ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:70:9-76:20
 	android:exported
 		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:72:13-37
 	android:name
-		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:71:13-41
-activity#com.example.ifeira.TelaDeConversas
+		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:71:13-34
+activity#com.example.ifeira.MeusProdutos
 ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:77:9-83:20
 	android:exported
 		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:79:13-37
 	android:name
-		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:78:13-44
-activity#com.example.ifeira.MenuLateral
+		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:78:13-41
+activity#com.example.ifeira.TelaDeConversas
 ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:84:9-90:20
 	android:exported
 		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:86:13-37
 	android:name
-		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:85:13-40
-activity#com.example.ifeira.MeusPedidos
-ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:91:9-98:20
-	android:label
-		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:94:13-40
+		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:85:13-44
+activity#com.example.ifeira.MenuLateral
+ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:91:9-97:20
 	android:exported
 		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:93:13-37
 	android:name
 		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:92:13-40
+activity#com.example.ifeira.MeusPedidos
+ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:98:9-105:20
+	android:label
+		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:101:13-40
+	android:exported
+		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:100:13-37
+	android:name
+		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:99:13-40
 activity#com.example.ifeira.PerfilUsuario
-ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:99:9-106:20
+ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:106:9-113:20
 	android:label
-		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:102:13-42
+		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:109:13-42
 	android:exported
-		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:101:13-37
+		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:108:13-37
 	android:name
-		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:100:13-42
+		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:107:13-42
 activity#com.example.ifeira.PerfilVendedor
-ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:107:9-114:20
+ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:114:9-121:20
 	android:label
-		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:110:13-43
+		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:117:13-43
 	android:exported
-		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:109:13-37
+		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:116:13-37
 	android:name
-		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:108:13-43
+		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:115:13-43
 activity#com.example.ifeira.TelaProduto
-ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:115:9-122:20
+ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:122:9-129:20
 	android:label
-		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:118:13-40
+		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:125:13-40
 	android:exported
-		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:117:13-37
-	android:name
-		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:116:13-40
-activity#com.example.ifeira.Carrinho
-ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:123:9-130:20
-	android:label
-		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:126:13-37
-	android:exported
-		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:125:13-37
-	android:name
 		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:124:13-37
-activity#com.example.ifeira.TelaDePagamento
-ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:131:9-138:20
+	android:name
+		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:123:13-40
+activity#com.example.ifeira.Carrinho
+ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:130:9-137:20
 	android:label
-		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:134:13-38
-	android:exported
 		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:133:13-37
+	android:exported
+		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:132:13-37
 	android:name
-		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:132:13-44
+		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:131:13-37
+activity#com.example.ifeira.TelaDePagamento
+ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:138:9-145:20
+	android:label
+		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:141:13-38
+	android:exported
+		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:140:13-37
+	android:name
+		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:139:13-44
 activity#com.example.ifeira.HistoricoDePedidos
-ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:139:9-146:20
+ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:146:9-153:20
 	android:label
-		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:142:13-49
+		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:149:13-49
 	android:exported
-		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:141:13-37
+		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:148:13-37
 	android:name
-		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:140:13-47
+		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:147:13-47
 activity#com.example.ifeira.CadastroDoUsuario
-ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:147:9-154:20
+ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:154:9-161:20
 	android:label
-		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:150:13-37
-	android:exported
-		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:149:13-37
-	android:name
-		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:148:13-46
-activity#com.example.ifeira.MainActivity
-ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:155:9-162:20
-	android:exported
 		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:157:13-37
+	android:exported
+		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:156:13-37
 	android:name
-		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:156:13-41
+		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:155:13-46
+activity#com.example.ifeira.MainActivity
+ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:162:9-168:20
+	android:exported
+		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:164:13-37
+	android:name
+		ADDED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:163:13-41
 uses-sdk
 INJECTED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml

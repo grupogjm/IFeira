@@ -5,8 +5,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.TextView;
 
 public class TelaProduto extends AppCompatActivity {
+    private TextView nomeP;
+    private TextView valorP;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,5 +23,12 @@ public class TelaProduto extends AppCompatActivity {
                 startActivity(i);
             }
         });
+        nomeP = findViewById(R.id.textView);
+        valorP = findViewById(R.id.textView2);
+
+
+
+
     }
+
 }

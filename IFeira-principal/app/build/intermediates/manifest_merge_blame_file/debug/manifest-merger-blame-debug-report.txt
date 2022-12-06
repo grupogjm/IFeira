@@ -29,7 +29,7 @@
 17-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\moise\.gradle\caches\transforms-3\20c0ed039f1287dec076f132f8aa7615\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:26:22-107
 18
 19    <application
-19-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:5:5-163:19
+19-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:5:5-169:19
 20        android:allowBackup="true"
 20-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:6:9-35
 21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -52,8 +52,8 @@
 30-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:13:9-65
 31        <activity
 31-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:15:9-21:20
-32            android:name="com.example.ifeira.TodasFrutas"
-32-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:16:13-40
+32            android:name="com.example.ifeira.CadastrarProdutos"
+32-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:16:13-46
 33            android:exported="false" >
 33-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:17:13-37
 34            <meta-data
@@ -65,8 +65,8 @@
 37        </activity>
 38        <activity
 38-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:22:9-28:20
-39            android:name="com.example.ifeira.TodosLegumes"
-39-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:23:13-41
+39            android:name="com.example.ifeira.TodasFrutas"
+39-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:23:13-40
 40            android:exported="false" >
 40-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:24:13-37
 41            <meta-data
@@ -77,35 +77,35 @@
 43-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:20:17-33
 44        </activity>
 45        <activity
-45-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:29:9-41:20
-46            android:name="com.example.ifeira.TelaLoginCadastro"
-46-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:30:13-46
-47            android:exported="true" >
-47-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:31:13-36
-48            <intent-filter>
-48-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:32:13-36:29
-49                <action android:name="android.intent.action.MAIN" />
-49-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:33:17-69
-49-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:33:25-66
-50
-51                <category android:name="android.intent.category.LAUNCHER" />
-51-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:35:17-77
-51-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:35:27-74
-52            </intent-filter>
-53
-54            <meta-data
-54-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:18:13-20:36
-55                android:name="android.app.lib_name"
-55-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:19:17-52
-56                android:value="" />
-56-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:20:17-33
-57        </activity>
-58        <activity
-58-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:42:9-48:20
-59            android:name="com.example.ifeira.HorariosDetalhes"
-59-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:43:13-45
-60            android:exported="false" >
-60-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:44:13-37
+45-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:29:9-35:20
+46            android:name="com.example.ifeira.TodosLegumes"
+46-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:30:13-41
+47            android:exported="false" >
+47-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:31:13-37
+48            <meta-data
+48-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:18:13-20:36
+49                android:name="android.app.lib_name"
+49-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:19:17-52
+50                android:value="" />
+50-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:20:17-33
+51        </activity>
+52        <activity
+52-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:36:9-48:20
+53            android:name="com.example.ifeira.TelaLoginCadastro"
+53-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:37:13-46
+54            android:exported="true" >
+54-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:38:13-36
+55            <intent-filter>
+55-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:39:13-43:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:40:17-69
+56-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:40:25-66
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:42:17-77
+58-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:42:27-74
+59            </intent-filter>
+60
 61            <meta-data
 61-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:18:13-20:36
 62                android:name="android.app.lib_name"
@@ -115,8 +115,8 @@
 64        </activity>
 65        <activity
 65-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:49:9-55:20
-66            android:name="com.example.ifeira.SobreDetalhes"
-66-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:50:13-42
+66            android:name="com.example.ifeira.HorariosDetalhes"
+66-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:50:13-45
 67            android:exported="false" >
 67-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:51:13-37
 68            <meta-data
@@ -128,8 +128,8 @@
 71        </activity>
 72        <activity
 72-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:56:9-62:20
-73            android:name="com.example.ifeira.Recovery"
-73-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:57:13-37
+73            android:name="com.example.ifeira.SobreDetalhes"
+73-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:57:13-42
 74            android:exported="false" >
 74-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:58:13-37
 75            <meta-data
@@ -141,8 +141,8 @@
 78        </activity>
 79        <activity
 79-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:63:9-69:20
-80            android:name="com.example.ifeira.Login"
-80-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:64:13-34
+80            android:name="com.example.ifeira.Recovery"
+80-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:64:13-37
 81            android:exported="false" >
 81-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:65:13-37
 82            <meta-data
@@ -154,8 +154,8 @@
 85        </activity>
 86        <activity
 86-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:70:9-76:20
-87            android:name="com.example.ifeira.MeusProdutos"
-87-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:71:13-41
+87            android:name="com.example.ifeira.Login"
+87-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:71:13-34
 88            android:exported="false" >
 88-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:72:13-37
 89            <meta-data
@@ -167,8 +167,8 @@
 92        </activity>
 93        <activity
 93-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:77:9-83:20
-94            android:name="com.example.ifeira.TelaDeConversas"
-94-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:78:13-44
+94            android:name="com.example.ifeira.MeusProdutos"
+94-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:78:13-41
 95            android:exported="false" >
 95-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:79:13-37
 96            <meta-data
@@ -180,8 +180,8 @@
 99        </activity>
 100        <activity
 100-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:84:9-90:20
-101            android:name="com.example.ifeira.MenuLateral"
-101-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:85:13-40
+101            android:name="com.example.ifeira.TelaDeConversas"
+101-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:85:13-44
 102            android:exported="false" >
 102-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:86:13-37
 103            <meta-data
@@ -192,130 +192,130 @@
 105-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:20:17-33
 106        </activity>
 107        <activity
-107-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:91:9-98:20
-108            android:name="com.example.ifeira.MeusPedidos"
+107-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:91:9-97:20
+108            android:name="com.example.ifeira.MenuLateral"
 108-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:92:13-40
-109            android:exported="false"
+109            android:exported="false" >
 109-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:93:13-37
-110            android:label="MeusPedidos" >
-110-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:94:13-40
-111            <meta-data
-111-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:18:13-20:36
-112                android:name="android.app.lib_name"
-112-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:19:17-52
-113                android:value="" />
-113-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:20:17-33
-114        </activity>
-115        <activity
-115-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:99:9-106:20
-116            android:name="com.example.ifeira.PerfilUsuario"
-116-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:100:13-42
-117            android:exported="false"
-117-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:101:13-37
-118            android:label="PerfilUsuario" >
-118-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:102:13-42
-119            <meta-data
-119-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:18:13-20:36
-120                android:name="android.app.lib_name"
-120-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:19:17-52
-121                android:value="" />
-121-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:20:17-33
-122        </activity>
-123        <activity
-123-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:107:9-114:20
-124            android:name="com.example.ifeira.PerfilVendedor"
-124-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:108:13-43
-125            android:exported="false"
-125-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:109:13-37
-126            android:label="PerfilVendedor" >
-126-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:110:13-43
-127            <meta-data
-127-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:18:13-20:36
-128                android:name="android.app.lib_name"
-128-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:19:17-52
-129                android:value="" />
-129-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:20:17-33
-130        </activity>
-131        <activity
-131-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:115:9-122:20
-132            android:name="com.example.ifeira.TelaProduto"
-132-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:116:13-40
-133            android:exported="false"
-133-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:117:13-37
-134            android:label="TelaProduto" >
-134-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:118:13-40
-135            <meta-data
-135-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:18:13-20:36
-136                android:name="android.app.lib_name"
-136-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:19:17-52
-137                android:value="" />
-137-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:20:17-33
-138        </activity>
-139        <activity
-139-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:123:9-130:20
-140            android:name="com.example.ifeira.Carrinho"
+110            <meta-data
+110-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:18:13-20:36
+111                android:name="android.app.lib_name"
+111-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:19:17-52
+112                android:value="" />
+112-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:20:17-33
+113        </activity>
+114        <activity
+114-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:98:9-105:20
+115            android:name="com.example.ifeira.MeusPedidos"
+115-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:99:13-40
+116            android:exported="false"
+116-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:100:13-37
+117            android:label="MeusPedidos" >
+117-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:101:13-40
+118            <meta-data
+118-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:18:13-20:36
+119                android:name="android.app.lib_name"
+119-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:19:17-52
+120                android:value="" />
+120-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:20:17-33
+121        </activity>
+122        <activity
+122-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:106:9-113:20
+123            android:name="com.example.ifeira.PerfilUsuario"
+123-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:107:13-42
+124            android:exported="false"
+124-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:108:13-37
+125            android:label="PerfilUsuario" >
+125-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:109:13-42
+126            <meta-data
+126-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:18:13-20:36
+127                android:name="android.app.lib_name"
+127-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:19:17-52
+128                android:value="" />
+128-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:20:17-33
+129        </activity>
+130        <activity
+130-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:114:9-121:20
+131            android:name="com.example.ifeira.PerfilVendedor"
+131-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:115:13-43
+132            android:exported="false"
+132-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:116:13-37
+133            android:label="PerfilVendedor" >
+133-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:117:13-43
+134            <meta-data
+134-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:18:13-20:36
+135                android:name="android.app.lib_name"
+135-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:19:17-52
+136                android:value="" />
+136-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:20:17-33
+137        </activity>
+138        <activity
+138-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:122:9-129:20
+139            android:name="com.example.ifeira.TelaProduto"
+139-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:123:13-40
+140            android:exported="false"
 140-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:124:13-37
-141            android:exported="false"
-141-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:125:13-37
-142            android:label="Carrinho" >
-142-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:126:13-37
-143            <meta-data
-143-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:18:13-20:36
-144                android:name="android.app.lib_name"
-144-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:19:17-52
-145                android:value="" />
-145-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:20:17-33
-146        </activity>
-147        <activity
-147-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:131:9-138:20
-148            android:name="com.example.ifeira.TelaDePagamento"
-148-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:132:13-44
-149            android:exported="false"
+141            android:label="TelaProduto" >
+141-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:125:13-40
+142            <meta-data
+142-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:18:13-20:36
+143                android:name="android.app.lib_name"
+143-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:19:17-52
+144                android:value="" />
+144-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:20:17-33
+145        </activity>
+146        <activity
+146-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:130:9-137:20
+147            android:name="com.example.ifeira.Carrinho"
+147-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:131:13-37
+148            android:exported="false"
+148-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:132:13-37
+149            android:label="Carrinho" >
 149-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:133:13-37
-150            android:label="Pagamento" >
-150-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:134:13-38
-151            <meta-data
-151-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:18:13-20:36
-152                android:name="android.app.lib_name"
-152-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:19:17-52
-153                android:value="" />
-153-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:20:17-33
-154        </activity>
-155        <activity
-155-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:139:9-146:20
-156            android:name="com.example.ifeira.HistoricoDePedidos"
-156-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:140:13-47
-157            android:exported="false"
-157-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:141:13-37
-158            android:label="Histórico de Pedidos" >
-158-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:142:13-49
-159            <meta-data
-159-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:18:13-20:36
-160                android:name="android.app.lib_name"
-160-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:19:17-52
-161                android:value="" />
-161-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:20:17-33
-162        </activity>
-163        <activity
-163-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:147:9-154:20
-164            android:name="com.example.ifeira.CadastroDoUsuario"
-164-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:148:13-46
-165            android:exported="false"
-165-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:149:13-37
-166            android:label="Cadastro" >
-166-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:150:13-37
-167            <meta-data
-167-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:18:13-20:36
-168                android:name="android.app.lib_name"
-168-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:19:17-52
-169                android:value="" />
-169-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:20:17-33
-170        </activity>
-171        <activity
-171-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:155:9-162:20
-172            android:name="com.example.ifeira.MainActivity"
-172-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:156:13-41
-173            android:exported="false" >
+150            <meta-data
+150-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:18:13-20:36
+151                android:name="android.app.lib_name"
+151-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:19:17-52
+152                android:value="" />
+152-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:20:17-33
+153        </activity>
+154        <activity
+154-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:138:9-145:20
+155            android:name="com.example.ifeira.TelaDePagamento"
+155-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:139:13-44
+156            android:exported="false"
+156-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:140:13-37
+157            android:label="Pagamento" >
+157-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:141:13-38
+158            <meta-data
+158-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:18:13-20:36
+159                android:name="android.app.lib_name"
+159-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:19:17-52
+160                android:value="" />
+160-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:20:17-33
+161        </activity>
+162        <activity
+162-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:146:9-153:20
+163            android:name="com.example.ifeira.HistoricoDePedidos"
+163-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:147:13-47
+164            android:exported="false"
+164-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:148:13-37
+165            android:label="Histórico de Pedidos" >
+165-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:149:13-49
+166            <meta-data
+166-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:18:13-20:36
+167                android:name="android.app.lib_name"
+167-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:19:17-52
+168                android:value="" />
+168-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:20:17-33
+169        </activity>
+170        <activity
+170-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:154:9-161:20
+171            android:name="com.example.ifeira.CadastroDoUsuario"
+171-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:155:13-46
+172            android:exported="false"
+172-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:156:13-37
+173            android:label="Cadastro" >
 173-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:157:13-37
 174            <meta-data
 174-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:18:13-20:36
@@ -324,215 +324,228 @@
 176                android:value="" />
 176-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:20:17-33
 177        </activity>
-178
-179        <service
-179-->[com.google.firebase:firebase-database:20.1.0] C:\Users\moise\.gradle\caches\transforms-3\50e3871daf5b806b964e71fe40d25b2e\transformed\firebase-database-20.1.0\AndroidManifest.xml:28:9-34:19
-180            android:name="com.google.firebase.components.ComponentDiscoveryService"
-180-->[com.google.firebase:firebase-database:20.1.0] C:\Users\moise\.gradle\caches\transforms-3\50e3871daf5b806b964e71fe40d25b2e\transformed\firebase-database-20.1.0\AndroidManifest.xml:29:13-84
-181            android:directBootAware="true"
-181-->[com.google.firebase:firebase-common:20.2.0] C:\Users\moise\.gradle\caches\transforms-3\b9f541fd40a0a7b93724c39d28fa6e88\transformed\firebase-common-20.2.0\AndroidManifest.xml:34:13-43
-182            android:exported="false" >
-182-->[com.google.firebase:firebase-database:20.1.0] C:\Users\moise\.gradle\caches\transforms-3\50e3871daf5b806b964e71fe40d25b2e\transformed\firebase-database-20.1.0\AndroidManifest.xml:30:13-37
-183            <meta-data
-183-->[com.google.firebase:firebase-database:20.1.0] C:\Users\moise\.gradle\caches\transforms-3\50e3871daf5b806b964e71fe40d25b2e\transformed\firebase-database-20.1.0\AndroidManifest.xml:31:13-33:85
-184                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-184-->[com.google.firebase:firebase-database:20.1.0] C:\Users\moise\.gradle\caches\transforms-3\50e3871daf5b806b964e71fe40d25b2e\transformed\firebase-database-20.1.0\AndroidManifest.xml:32:17-109
-185                android:value="com.google.firebase.components.ComponentRegistrar" />
-185-->[com.google.firebase:firebase-database:20.1.0] C:\Users\moise\.gradle\caches\transforms-3\50e3871daf5b806b964e71fe40d25b2e\transformed\firebase-database-20.1.0\AndroidManifest.xml:33:17-82
-186            <meta-data
-186-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:67:13-69:85
-187                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-187-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:68:17-109
-188                android:value="com.google.firebase.components.ComponentRegistrar" />
-188-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:69:17-82
-189            <meta-data
-189-->[com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\moise\.gradle\caches\transforms-3\75d14487fc84e37b0e16d0f336e7bbd6\transformed\firebase-analytics-ktx-21.2.0\AndroidManifest.xml:11:13-13:85
-190                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
-190-->[com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\moise\.gradle\caches\transforms-3\75d14487fc84e37b0e16d0f336e7bbd6\transformed\firebase-analytics-ktx-21.2.0\AndroidManifest.xml:12:17-126
-191                android:value="com.google.firebase.components.ComponentRegistrar" />
-191-->[com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\moise\.gradle\caches\transforms-3\75d14487fc84e37b0e16d0f336e7bbd6\transformed\firebase-analytics-ktx-21.2.0\AndroidManifest.xml:13:17-82
-192            <meta-data
-192-->[com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\moise\.gradle\caches\transforms-3\1f554fb0fbb567a4ad7d5262691f1e73\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:14:13-16:85
-193                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
-193-->[com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\moise\.gradle\caches\transforms-3\1f554fb0fbb567a4ad7d5262691f1e73\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:15:17-113
-194                android:value="com.google.firebase.components.ComponentRegistrar" />
-194-->[com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\moise\.gradle\caches\transforms-3\1f554fb0fbb567a4ad7d5262691f1e73\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:16:17-82
-195            <meta-data
-195-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\moise\.gradle\caches\transforms-3\4a8d77325b67161b1cb864d5fa2e3d25\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:31:13-33:85
-196                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-196-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\moise\.gradle\caches\transforms-3\4a8d77325b67161b1cb864d5fa2e3d25\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:32:17-139
-197                android:value="com.google.firebase.components.ComponentRegistrar" />
-197-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\moise\.gradle\caches\transforms-3\4a8d77325b67161b1cb864d5fa2e3d25\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:33:17-82
-198            <meta-data
-198-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\moise\.gradle\caches\transforms-3\8925545000941a0eeddb9daafb80b0ac\transformed\firebase-installations-17.1.0\AndroidManifest.xml:17:13-19:85
-199                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-199-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\moise\.gradle\caches\transforms-3\8925545000941a0eeddb9daafb80b0ac\transformed\firebase-installations-17.1.0\AndroidManifest.xml:18:17-127
-200                android:value="com.google.firebase.components.ComponentRegistrar" />
-200-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\moise\.gradle\caches\transforms-3\8925545000941a0eeddb9daafb80b0ac\transformed\firebase-installations-17.1.0\AndroidManifest.xml:19:17-82
-201        </service>
-202
-203        <activity
-203-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:27:9-44:20
-204            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-204-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:28:13-80
-205            android:excludeFromRecents="true"
-205-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:29:13-46
-206            android:exported="true"
-206-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:30:13-36
-207            android:launchMode="singleTask"
-207-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:31:13-44
-208            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-208-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:32:13-72
-209            <intent-filter>
-209-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:33:13-43:29
-210                <action android:name="android.intent.action.VIEW" />
-210-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:17-69
-210-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:25-66
-211
-212                <category android:name="android.intent.category.DEFAULT" />
-212-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:17-76
-212-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:27-73
-213                <category android:name="android.intent.category.BROWSABLE" />
-213-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:17-78
-213-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:27-75
-214
-215                <data
-215-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:39:17-42:51
-216                    android:host="firebase.auth"
-216-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:40:21-49
-217                    android:path="/"
-217-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:41:21-37
-218                    android:scheme="genericidp" />
-218-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:42:21-48
-219            </intent-filter>
-220        </activity>
-221        <activity
-221-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:45:9-62:20
-222            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-222-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:46:13-79
-223            android:excludeFromRecents="true"
-223-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:47:13-46
-224            android:exported="true"
-224-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:48:13-36
-225            android:launchMode="singleTask"
-225-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:49:13-44
-226            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-226-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:50:13-72
-227            <intent-filter>
-227-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:51:13-61:29
-228                <action android:name="android.intent.action.VIEW" />
-228-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:17-69
-228-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:25-66
-229
-230                <category android:name="android.intent.category.DEFAULT" />
-230-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:17-76
-230-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:27-73
-231                <category android:name="android.intent.category.BROWSABLE" />
-231-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:17-78
-231-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:27-75
-232
-233                <data
-233-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:39:17-42:51
-234                    android:host="firebase.auth"
-234-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:40:21-49
-235                    android:path="/"
-235-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:41:21-37
-236                    android:scheme="recaptcha" />
-236-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:42:21-48
-237            </intent-filter>
-238        </activity>
-239        <activity
-239-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\moise\.gradle\caches\transforms-3\4f36281d46ee8373ea89445f988a58a6\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
-240            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-240-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\moise\.gradle\caches\transforms-3\4f36281d46ee8373ea89445f988a58a6\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
-241            android:exported="false"
-241-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\moise\.gradle\caches\transforms-3\4f36281d46ee8373ea89445f988a58a6\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
-242            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-242-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\moise\.gradle\caches\transforms-3\4f36281d46ee8373ea89445f988a58a6\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
-243
-244        <provider
-244-->[com.google.firebase:firebase-common:20.2.0] C:\Users\moise\.gradle\caches\transforms-3\b9f541fd40a0a7b93724c39d28fa6e88\transformed\firebase-common-20.2.0\AndroidManifest.xml:25:9-30:39
-245            android:name="com.google.firebase.provider.FirebaseInitProvider"
-245-->[com.google.firebase:firebase-common:20.2.0] C:\Users\moise\.gradle\caches\transforms-3\b9f541fd40a0a7b93724c39d28fa6e88\transformed\firebase-common-20.2.0\AndroidManifest.xml:26:13-77
-246            android:authorities="com.example.ifeira.firebaseinitprovider"
-246-->[com.google.firebase:firebase-common:20.2.0] C:\Users\moise\.gradle\caches\transforms-3\b9f541fd40a0a7b93724c39d28fa6e88\transformed\firebase-common-20.2.0\AndroidManifest.xml:27:13-72
-247            android:directBootAware="true"
-247-->[com.google.firebase:firebase-common:20.2.0] C:\Users\moise\.gradle\caches\transforms-3\b9f541fd40a0a7b93724c39d28fa6e88\transformed\firebase-common-20.2.0\AndroidManifest.xml:28:13-43
+178        <activity
+178-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:162:9-168:20
+179            android:name="com.example.ifeira.MainActivity"
+179-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:163:13-41
+180            android:exported="false" >
+180-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:164:13-37
+181            <meta-data
+181-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:18:13-20:36
+182                android:name="android.app.lib_name"
+182-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:19:17-52
+183                android:value="" />
+183-->D:\programacao\my_programas\IFeira\IFeira-principal\app\src\main\AndroidManifest.xml:20:17-33
+184        </activity>
+185
+186        <service
+186-->[com.google.firebase:firebase-database:20.1.0] C:\Users\moise\.gradle\caches\transforms-3\50e3871daf5b806b964e71fe40d25b2e\transformed\firebase-database-20.1.0\AndroidManifest.xml:28:9-34:19
+187            android:name="com.google.firebase.components.ComponentDiscoveryService"
+187-->[com.google.firebase:firebase-database:20.1.0] C:\Users\moise\.gradle\caches\transforms-3\50e3871daf5b806b964e71fe40d25b2e\transformed\firebase-database-20.1.0\AndroidManifest.xml:29:13-84
+188            android:directBootAware="true"
+188-->[com.google.firebase:firebase-common:20.2.0] C:\Users\moise\.gradle\caches\transforms-3\b9f541fd40a0a7b93724c39d28fa6e88\transformed\firebase-common-20.2.0\AndroidManifest.xml:34:13-43
+189            android:exported="false" >
+189-->[com.google.firebase:firebase-database:20.1.0] C:\Users\moise\.gradle\caches\transforms-3\50e3871daf5b806b964e71fe40d25b2e\transformed\firebase-database-20.1.0\AndroidManifest.xml:30:13-37
+190            <meta-data
+190-->[com.google.firebase:firebase-database:20.1.0] C:\Users\moise\.gradle\caches\transforms-3\50e3871daf5b806b964e71fe40d25b2e\transformed\firebase-database-20.1.0\AndroidManifest.xml:31:13-33:85
+191                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+191-->[com.google.firebase:firebase-database:20.1.0] C:\Users\moise\.gradle\caches\transforms-3\50e3871daf5b806b964e71fe40d25b2e\transformed\firebase-database-20.1.0\AndroidManifest.xml:32:17-109
+192                android:value="com.google.firebase.components.ComponentRegistrar" />
+192-->[com.google.firebase:firebase-database:20.1.0] C:\Users\moise\.gradle\caches\transforms-3\50e3871daf5b806b964e71fe40d25b2e\transformed\firebase-database-20.1.0\AndroidManifest.xml:33:17-82
+193            <meta-data
+193-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:67:13-69:85
+194                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+194-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:68:17-109
+195                android:value="com.google.firebase.components.ComponentRegistrar" />
+195-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:69:17-82
+196            <meta-data
+196-->[com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\moise\.gradle\caches\transforms-3\75d14487fc84e37b0e16d0f336e7bbd6\transformed\firebase-analytics-ktx-21.2.0\AndroidManifest.xml:11:13-13:85
+197                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+197-->[com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\moise\.gradle\caches\transforms-3\75d14487fc84e37b0e16d0f336e7bbd6\transformed\firebase-analytics-ktx-21.2.0\AndroidManifest.xml:12:17-126
+198                android:value="com.google.firebase.components.ComponentRegistrar" />
+198-->[com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\moise\.gradle\caches\transforms-3\75d14487fc84e37b0e16d0f336e7bbd6\transformed\firebase-analytics-ktx-21.2.0\AndroidManifest.xml:13:17-82
+199            <meta-data
+199-->[com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\moise\.gradle\caches\transforms-3\1f554fb0fbb567a4ad7d5262691f1e73\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:14:13-16:85
+200                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+200-->[com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\moise\.gradle\caches\transforms-3\1f554fb0fbb567a4ad7d5262691f1e73\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:15:17-113
+201                android:value="com.google.firebase.components.ComponentRegistrar" />
+201-->[com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\moise\.gradle\caches\transforms-3\1f554fb0fbb567a4ad7d5262691f1e73\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:16:17-82
+202            <meta-data
+202-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\moise\.gradle\caches\transforms-3\4a8d77325b67161b1cb864d5fa2e3d25\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:31:13-33:85
+203                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+203-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\moise\.gradle\caches\transforms-3\4a8d77325b67161b1cb864d5fa2e3d25\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:32:17-139
+204                android:value="com.google.firebase.components.ComponentRegistrar" />
+204-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\moise\.gradle\caches\transforms-3\4a8d77325b67161b1cb864d5fa2e3d25\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:33:17-82
+205            <meta-data
+205-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\moise\.gradle\caches\transforms-3\8925545000941a0eeddb9daafb80b0ac\transformed\firebase-installations-17.1.0\AndroidManifest.xml:17:13-19:85
+206                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+206-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\moise\.gradle\caches\transforms-3\8925545000941a0eeddb9daafb80b0ac\transformed\firebase-installations-17.1.0\AndroidManifest.xml:18:17-127
+207                android:value="com.google.firebase.components.ComponentRegistrar" />
+207-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\moise\.gradle\caches\transforms-3\8925545000941a0eeddb9daafb80b0ac\transformed\firebase-installations-17.1.0\AndroidManifest.xml:19:17-82
+208        </service>
+209
+210        <activity
+210-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:27:9-44:20
+211            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+211-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:28:13-80
+212            android:excludeFromRecents="true"
+212-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:29:13-46
+213            android:exported="true"
+213-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:30:13-36
+214            android:launchMode="singleTask"
+214-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:31:13-44
+215            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+215-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:32:13-72
+216            <intent-filter>
+216-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:33:13-43:29
+217                <action android:name="android.intent.action.VIEW" />
+217-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:17-69
+217-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:25-66
+218
+219                <category android:name="android.intent.category.DEFAULT" />
+219-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:17-76
+219-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:27-73
+220                <category android:name="android.intent.category.BROWSABLE" />
+220-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:17-78
+220-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:27-75
+221
+222                <data
+222-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:39:17-42:51
+223                    android:host="firebase.auth"
+223-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:40:21-49
+224                    android:path="/"
+224-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:41:21-37
+225                    android:scheme="genericidp" />
+225-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:42:21-48
+226            </intent-filter>
+227        </activity>
+228        <activity
+228-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:45:9-62:20
+229            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+229-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:46:13-79
+230            android:excludeFromRecents="true"
+230-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:47:13-46
+231            android:exported="true"
+231-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:48:13-36
+232            android:launchMode="singleTask"
+232-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:49:13-44
+233            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+233-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:50:13-72
+234            <intent-filter>
+234-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:51:13-61:29
+235                <action android:name="android.intent.action.VIEW" />
+235-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:17-69
+235-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:25-66
+236
+237                <category android:name="android.intent.category.DEFAULT" />
+237-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:17-76
+237-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:27-73
+238                <category android:name="android.intent.category.BROWSABLE" />
+238-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:17-78
+238-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:27-75
+239
+240                <data
+240-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:39:17-42:51
+241                    android:host="firebase.auth"
+241-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:40:21-49
+242                    android:path="/"
+242-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:41:21-37
+243                    android:scheme="recaptcha" />
+243-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\moise\.gradle\caches\transforms-3\b0f0b8cb850456cb44a157638474ec2b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:42:21-48
+244            </intent-filter>
+245        </activity>
+246        <activity
+246-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\moise\.gradle\caches\transforms-3\4f36281d46ee8373ea89445f988a58a6\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+247            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+247-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\moise\.gradle\caches\transforms-3\4f36281d46ee8373ea89445f988a58a6\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
 248            android:exported="false"
-248-->[com.google.firebase:firebase-common:20.2.0] C:\Users\moise\.gradle\caches\transforms-3\b9f541fd40a0a7b93724c39d28fa6e88\transformed\firebase-common-20.2.0\AndroidManifest.xml:29:13-37
-249            android:initOrder="100" />
-249-->[com.google.firebase:firebase-common:20.2.0] C:\Users\moise\.gradle\caches\transforms-3\b9f541fd40a0a7b93724c39d28fa6e88\transformed\firebase-common-20.2.0\AndroidManifest.xml:30:13-36
+248-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\moise\.gradle\caches\transforms-3\4f36281d46ee8373ea89445f988a58a6\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+249            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+249-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\moise\.gradle\caches\transforms-3\4f36281d46ee8373ea89445f988a58a6\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
 250
-251        <receiver
-251-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\moise\.gradle\caches\transforms-3\20c0ed039f1287dec076f132f8aa7615\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:29:9-33:20
-252            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-252-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\moise\.gradle\caches\transforms-3\20c0ed039f1287dec076f132f8aa7615\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:30:13-85
-253            android:enabled="true"
-253-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\moise\.gradle\caches\transforms-3\20c0ed039f1287dec076f132f8aa7615\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:31:13-35
-254            android:exported="false" >
-254-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\moise\.gradle\caches\transforms-3\20c0ed039f1287dec076f132f8aa7615\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:32:13-37
-255        </receiver>
-256
-257        <service
-257-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\moise\.gradle\caches\transforms-3\20c0ed039f1287dec076f132f8aa7615\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:35:9-38:40
-258            android:name="com.google.android.gms.measurement.AppMeasurementService"
-258-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\moise\.gradle\caches\transforms-3\20c0ed039f1287dec076f132f8aa7615\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:36:13-84
-259            android:enabled="true"
-259-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\moise\.gradle\caches\transforms-3\20c0ed039f1287dec076f132f8aa7615\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:37:13-35
-260            android:exported="false" />
-260-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\moise\.gradle\caches\transforms-3\20c0ed039f1287dec076f132f8aa7615\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:38:13-37
-261        <service
-261-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\moise\.gradle\caches\transforms-3\20c0ed039f1287dec076f132f8aa7615\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:39:9-43:72
-262            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-262-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\moise\.gradle\caches\transforms-3\20c0ed039f1287dec076f132f8aa7615\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:40:13-87
-263            android:enabled="true"
-263-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\moise\.gradle\caches\transforms-3\20c0ed039f1287dec076f132f8aa7615\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:41:13-35
-264            android:exported="false"
-264-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\moise\.gradle\caches\transforms-3\20c0ed039f1287dec076f132f8aa7615\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:42:13-37
-265            android:permission="android.permission.BIND_JOB_SERVICE" />
-265-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\moise\.gradle\caches\transforms-3\20c0ed039f1287dec076f132f8aa7615\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:43:13-69
-266
-267        <uses-library
-267-->[androidx.window:window:1.0.0] C:\Users\moise\.gradle\caches\transforms-3\0e5d083b362825e705523d002ee470ef\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
-268            android:name="androidx.window.extensions"
-268-->[androidx.window:window:1.0.0] C:\Users\moise\.gradle\caches\transforms-3\0e5d083b362825e705523d002ee470ef\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
-269            android:required="false" />
-269-->[androidx.window:window:1.0.0] C:\Users\moise\.gradle\caches\transforms-3\0e5d083b362825e705523d002ee470ef\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
-270        <uses-library
-270-->[androidx.window:window:1.0.0] C:\Users\moise\.gradle\caches\transforms-3\0e5d083b362825e705523d002ee470ef\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
-271            android:name="androidx.window.sidecar"
-271-->[androidx.window:window:1.0.0] C:\Users\moise\.gradle\caches\transforms-3\0e5d083b362825e705523d002ee470ef\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
-272            android:required="false" />
-272-->[androidx.window:window:1.0.0] C:\Users\moise\.gradle\caches\transforms-3\0e5d083b362825e705523d002ee470ef\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+251        <provider
+251-->[com.google.firebase:firebase-common:20.2.0] C:\Users\moise\.gradle\caches\transforms-3\b9f541fd40a0a7b93724c39d28fa6e88\transformed\firebase-common-20.2.0\AndroidManifest.xml:25:9-30:39
+252            android:name="com.google.firebase.provider.FirebaseInitProvider"
+252-->[com.google.firebase:firebase-common:20.2.0] C:\Users\moise\.gradle\caches\transforms-3\b9f541fd40a0a7b93724c39d28fa6e88\transformed\firebase-common-20.2.0\AndroidManifest.xml:26:13-77
+253            android:authorities="com.example.ifeira.firebaseinitprovider"
+253-->[com.google.firebase:firebase-common:20.2.0] C:\Users\moise\.gradle\caches\transforms-3\b9f541fd40a0a7b93724c39d28fa6e88\transformed\firebase-common-20.2.0\AndroidManifest.xml:27:13-72
+254            android:directBootAware="true"
+254-->[com.google.firebase:firebase-common:20.2.0] C:\Users\moise\.gradle\caches\transforms-3\b9f541fd40a0a7b93724c39d28fa6e88\transformed\firebase-common-20.2.0\AndroidManifest.xml:28:13-43
+255            android:exported="false"
+255-->[com.google.firebase:firebase-common:20.2.0] C:\Users\moise\.gradle\caches\transforms-3\b9f541fd40a0a7b93724c39d28fa6e88\transformed\firebase-common-20.2.0\AndroidManifest.xml:29:13-37
+256            android:initOrder="100" />
+256-->[com.google.firebase:firebase-common:20.2.0] C:\Users\moise\.gradle\caches\transforms-3\b9f541fd40a0a7b93724c39d28fa6e88\transformed\firebase-common-20.2.0\AndroidManifest.xml:30:13-36
+257
+258        <receiver
+258-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\moise\.gradle\caches\transforms-3\20c0ed039f1287dec076f132f8aa7615\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:29:9-33:20
+259            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+259-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\moise\.gradle\caches\transforms-3\20c0ed039f1287dec076f132f8aa7615\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:30:13-85
+260            android:enabled="true"
+260-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\moise\.gradle\caches\transforms-3\20c0ed039f1287dec076f132f8aa7615\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:31:13-35
+261            android:exported="false" >
+261-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\moise\.gradle\caches\transforms-3\20c0ed039f1287dec076f132f8aa7615\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:32:13-37
+262        </receiver>
+263
+264        <service
+264-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\moise\.gradle\caches\transforms-3\20c0ed039f1287dec076f132f8aa7615\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:35:9-38:40
+265            android:name="com.google.android.gms.measurement.AppMeasurementService"
+265-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\moise\.gradle\caches\transforms-3\20c0ed039f1287dec076f132f8aa7615\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:36:13-84
+266            android:enabled="true"
+266-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\moise\.gradle\caches\transforms-3\20c0ed039f1287dec076f132f8aa7615\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:37:13-35
+267            android:exported="false" />
+267-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\moise\.gradle\caches\transforms-3\20c0ed039f1287dec076f132f8aa7615\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:38:13-37
+268        <service
+268-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\moise\.gradle\caches\transforms-3\20c0ed039f1287dec076f132f8aa7615\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:39:9-43:72
+269            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+269-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\moise\.gradle\caches\transforms-3\20c0ed039f1287dec076f132f8aa7615\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:40:13-87
+270            android:enabled="true"
+270-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\moise\.gradle\caches\transforms-3\20c0ed039f1287dec076f132f8aa7615\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:41:13-35
+271            android:exported="false"
+271-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\moise\.gradle\caches\transforms-3\20c0ed039f1287dec076f132f8aa7615\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:42:13-37
+272            android:permission="android.permission.BIND_JOB_SERVICE" />
+272-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\moise\.gradle\caches\transforms-3\20c0ed039f1287dec076f132f8aa7615\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:43:13-69
 273
-274        <meta-data
-274-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\moise\.gradle\caches\transforms-3\6386fcf57f58045ac147a5ebc907797a\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
-275            android:name="com.google.android.gms.version"
-275-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\moise\.gradle\caches\transforms-3\6386fcf57f58045ac147a5ebc907797a\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
-276            android:value="@integer/google_play_services_version" />
-276-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\moise\.gradle\caches\transforms-3\6386fcf57f58045ac147a5ebc907797a\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
-277
-278        <provider
-278-->[androidx.emoji2:emoji2:1.2.0] C:\Users\moise\.gradle\caches\transforms-3\8d9e1a410c2a73b622526687aec45bce\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-279            android:name="androidx.startup.InitializationProvider"
-279-->[androidx.emoji2:emoji2:1.2.0] C:\Users\moise\.gradle\caches\transforms-3\8d9e1a410c2a73b622526687aec45bce\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-280            android:authorities="com.example.ifeira.androidx-startup"
-280-->[androidx.emoji2:emoji2:1.2.0] C:\Users\moise\.gradle\caches\transforms-3\8d9e1a410c2a73b622526687aec45bce\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-281            android:exported="false" >
-281-->[androidx.emoji2:emoji2:1.2.0] C:\Users\moise\.gradle\caches\transforms-3\8d9e1a410c2a73b622526687aec45bce\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-282            <meta-data
-282-->[androidx.emoji2:emoji2:1.2.0] C:\Users\moise\.gradle\caches\transforms-3\8d9e1a410c2a73b622526687aec45bce\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-283                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-283-->[androidx.emoji2:emoji2:1.2.0] C:\Users\moise\.gradle\caches\transforms-3\8d9e1a410c2a73b622526687aec45bce\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-284                android:value="androidx.startup" />
-284-->[androidx.emoji2:emoji2:1.2.0] C:\Users\moise\.gradle\caches\transforms-3\8d9e1a410c2a73b622526687aec45bce\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-285            <meta-data
-285-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\moise\.gradle\caches\transforms-3\01fcd40c26c845c4f1495b8e45143789\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-286                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-286-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\moise\.gradle\caches\transforms-3\01fcd40c26c845c4f1495b8e45143789\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-287                android:value="androidx.startup" />
-287-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\moise\.gradle\caches\transforms-3\01fcd40c26c845c4f1495b8e45143789\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-288        </provider>
-289    </application>
-290
-291</manifest>
+274        <uses-library
+274-->[androidx.window:window:1.0.0] C:\Users\moise\.gradle\caches\transforms-3\0e5d083b362825e705523d002ee470ef\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+275            android:name="androidx.window.extensions"
+275-->[androidx.window:window:1.0.0] C:\Users\moise\.gradle\caches\transforms-3\0e5d083b362825e705523d002ee470ef\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+276            android:required="false" />
+276-->[androidx.window:window:1.0.0] C:\Users\moise\.gradle\caches\transforms-3\0e5d083b362825e705523d002ee470ef\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+277        <uses-library
+277-->[androidx.window:window:1.0.0] C:\Users\moise\.gradle\caches\transforms-3\0e5d083b362825e705523d002ee470ef\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+278            android:name="androidx.window.sidecar"
+278-->[androidx.window:window:1.0.0] C:\Users\moise\.gradle\caches\transforms-3\0e5d083b362825e705523d002ee470ef\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+279            android:required="false" />
+279-->[androidx.window:window:1.0.0] C:\Users\moise\.gradle\caches\transforms-3\0e5d083b362825e705523d002ee470ef\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+280
+281        <meta-data
+281-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\moise\.gradle\caches\transforms-3\6386fcf57f58045ac147a5ebc907797a\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+282            android:name="com.google.android.gms.version"
+282-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\moise\.gradle\caches\transforms-3\6386fcf57f58045ac147a5ebc907797a\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+283            android:value="@integer/google_play_services_version" />
+283-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\moise\.gradle\caches\transforms-3\6386fcf57f58045ac147a5ebc907797a\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+284
+285        <provider
+285-->[androidx.emoji2:emoji2:1.2.0] C:\Users\moise\.gradle\caches\transforms-3\8d9e1a410c2a73b622526687aec45bce\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+286            android:name="androidx.startup.InitializationProvider"
+286-->[androidx.emoji2:emoji2:1.2.0] C:\Users\moise\.gradle\caches\transforms-3\8d9e1a410c2a73b622526687aec45bce\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+287            android:authorities="com.example.ifeira.androidx-startup"
+287-->[androidx.emoji2:emoji2:1.2.0] C:\Users\moise\.gradle\caches\transforms-3\8d9e1a410c2a73b622526687aec45bce\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+288            android:exported="false" >
+288-->[androidx.emoji2:emoji2:1.2.0] C:\Users\moise\.gradle\caches\transforms-3\8d9e1a410c2a73b622526687aec45bce\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+289            <meta-data
+289-->[androidx.emoji2:emoji2:1.2.0] C:\Users\moise\.gradle\caches\transforms-3\8d9e1a410c2a73b622526687aec45bce\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+290                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+290-->[androidx.emoji2:emoji2:1.2.0] C:\Users\moise\.gradle\caches\transforms-3\8d9e1a410c2a73b622526687aec45bce\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+291                android:value="androidx.startup" />
+291-->[androidx.emoji2:emoji2:1.2.0] C:\Users\moise\.gradle\caches\transforms-3\8d9e1a410c2a73b622526687aec45bce\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+292            <meta-data
+292-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\moise\.gradle\caches\transforms-3\01fcd40c26c845c4f1495b8e45143789\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+293                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+293-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\moise\.gradle\caches\transforms-3\01fcd40c26c845c4f1495b8e45143789\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+294                android:value="androidx.startup" />
+294-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\moise\.gradle\caches\transforms-3\01fcd40c26c845c4f1495b8e45143789\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+295        </provider>
+296    </application>
+297
+298</manifest>

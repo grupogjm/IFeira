@@ -38,6 +38,9 @@ public final class ActivityMeusProdutosBinding implements ViewBinding {
   public final ImageView ImagemProduto3;
 
   @NonNull
+  public final ConstraintLayout LayoutCadastrarProduto;
+
+  @NonNull
   public final ConstraintLayout LayoutProduto01;
 
   @NonNull
@@ -66,6 +69,9 @@ public final class ActivityMeusProdutosBinding implements ViewBinding {
 
   @NonNull
   public final View LinhaCima3;
+
+  @NonNull
+  public final View Seta;
 
   @NonNull
   public final TextView TextDescricaoProduto1;
@@ -121,18 +127,18 @@ public final class ActivityMeusProdutosBinding implements ViewBinding {
   private ActivityMeusProdutosBinding(@NonNull LinearLayoutCompat rootView,
       @NonNull EditText EditPesquisa, @NonNull View IconeVoltar, @NonNull ImageView ImagemProduto1,
       @NonNull ImageView ImagemProduto2, @NonNull ImageView ImagemProduto3,
-      @NonNull ConstraintLayout LayoutProduto01, @NonNull ConstraintLayout LayoutProduto02,
-      @NonNull ConstraintLayout LayoutProduto03, @NonNull ConstraintLayout LayoutToobar,
-      @NonNull View LinhaBaixo1, @NonNull View LinhaBaixo2, @NonNull View LinhaBaixo3,
-      @NonNull View LinhaCima1, @NonNull View LinhaCima2, @NonNull View LinhaCima3,
-      @NonNull TextView TextDescricaoProduto1, @NonNull TextView TextDescricaoProduto2,
-      @NonNull TextView TextDescricaoProduto3, @NonNull TextView TextNomeProduto1,
-      @NonNull TextView TextNomeProduto2, @NonNull TextView TextNomeProduto3,
-      @NonNull TextView TextQuantidadeDeProdutos, @NonNull TextView TextStatusProdutos1,
-      @NonNull TextView TextStatusProdutos2, @NonNull TextView TextStatusProdutos3,
-      @NonNull TextView TextValorProduto1, @NonNull TextView TextValorProduto2,
-      @NonNull TextView TextValorProduto3, @NonNull TextView TipoProduto,
-      @NonNull TextView TipoProduto2, @NonNull TextView TipoProduto3,
+      @NonNull ConstraintLayout LayoutCadastrarProduto, @NonNull ConstraintLayout LayoutProduto01,
+      @NonNull ConstraintLayout LayoutProduto02, @NonNull ConstraintLayout LayoutProduto03,
+      @NonNull ConstraintLayout LayoutToobar, @NonNull View LinhaBaixo1, @NonNull View LinhaBaixo2,
+      @NonNull View LinhaBaixo3, @NonNull View LinhaCima1, @NonNull View LinhaCima2,
+      @NonNull View LinhaCima3, @NonNull View Seta, @NonNull TextView TextDescricaoProduto1,
+      @NonNull TextView TextDescricaoProduto2, @NonNull TextView TextDescricaoProduto3,
+      @NonNull TextView TextNomeProduto1, @NonNull TextView TextNomeProduto2,
+      @NonNull TextView TextNomeProduto3, @NonNull TextView TextQuantidadeDeProdutos,
+      @NonNull TextView TextStatusProdutos1, @NonNull TextView TextStatusProdutos2,
+      @NonNull TextView TextStatusProdutos3, @NonNull TextView TextValorProduto1,
+      @NonNull TextView TextValorProduto2, @NonNull TextView TextValorProduto3,
+      @NonNull TextView TipoProduto, @NonNull TextView TipoProduto2, @NonNull TextView TipoProduto3,
       @NonNull ToolbarBinding Toolbar) {
     this.rootView = rootView;
     this.EditPesquisa = EditPesquisa;
@@ -140,6 +146,7 @@ public final class ActivityMeusProdutosBinding implements ViewBinding {
     this.ImagemProduto1 = ImagemProduto1;
     this.ImagemProduto2 = ImagemProduto2;
     this.ImagemProduto3 = ImagemProduto3;
+    this.LayoutCadastrarProduto = LayoutCadastrarProduto;
     this.LayoutProduto01 = LayoutProduto01;
     this.LayoutProduto02 = LayoutProduto02;
     this.LayoutProduto03 = LayoutProduto03;
@@ -150,6 +157,7 @@ public final class ActivityMeusProdutosBinding implements ViewBinding {
     this.LinhaCima1 = LinhaCima1;
     this.LinhaCima2 = LinhaCima2;
     this.LinhaCima3 = LinhaCima3;
+    this.Seta = Seta;
     this.TextDescricaoProduto1 = TextDescricaoProduto1;
     this.TextDescricaoProduto2 = TextDescricaoProduto2;
     this.TextDescricaoProduto3 = TextDescricaoProduto3;
@@ -226,6 +234,12 @@ public final class ActivityMeusProdutosBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.Layout_cadastrarProduto;
+      ConstraintLayout LayoutCadastrarProduto = ViewBindings.findChildViewById(rootView, id);
+      if (LayoutCadastrarProduto == null) {
+        break missingId;
+      }
+
       id = R.id.LayoutProduto01;
       ConstraintLayout LayoutProduto01 = ViewBindings.findChildViewById(rootView, id);
       if (LayoutProduto01 == null) {
@@ -283,6 +297,12 @@ public final class ActivityMeusProdutosBinding implements ViewBinding {
       id = R.id.Linha_cima3;
       View LinhaCima3 = ViewBindings.findChildViewById(rootView, id);
       if (LinhaCima3 == null) {
+        break missingId;
+      }
+
+      id = R.id.Seta;
+      View Seta = ViewBindings.findChildViewById(rootView, id);
+      if (Seta == null) {
         break missingId;
       }
 
@@ -390,13 +410,13 @@ public final class ActivityMeusProdutosBinding implements ViewBinding {
       ToolbarBinding binding_Toolbar = ToolbarBinding.bind(Toolbar);
 
       return new ActivityMeusProdutosBinding((LinearLayoutCompat) rootView, EditPesquisa,
-          IconeVoltar, ImagemProduto1, ImagemProduto2, ImagemProduto3, LayoutProduto01,
-          LayoutProduto02, LayoutProduto03, LayoutToobar, LinhaBaixo1, LinhaBaixo2, LinhaBaixo3,
-          LinhaCima1, LinhaCima2, LinhaCima3, TextDescricaoProduto1, TextDescricaoProduto2,
-          TextDescricaoProduto3, TextNomeProduto1, TextNomeProduto2, TextNomeProduto3,
-          TextQuantidadeDeProdutos, TextStatusProdutos1, TextStatusProdutos2, TextStatusProdutos3,
-          TextValorProduto1, TextValorProduto2, TextValorProduto3, TipoProduto, TipoProduto2,
-          TipoProduto3, binding_Toolbar);
+          IconeVoltar, ImagemProduto1, ImagemProduto2, ImagemProduto3, LayoutCadastrarProduto,
+          LayoutProduto01, LayoutProduto02, LayoutProduto03, LayoutToobar, LinhaBaixo1, LinhaBaixo2,
+          LinhaBaixo3, LinhaCima1, LinhaCima2, LinhaCima3, Seta, TextDescricaoProduto1,
+          TextDescricaoProduto2, TextDescricaoProduto3, TextNomeProduto1, TextNomeProduto2,
+          TextNomeProduto3, TextQuantidadeDeProdutos, TextStatusProdutos1, TextStatusProdutos2,
+          TextStatusProdutos3, TextValorProduto1, TextValorProduto2, TextValorProduto3, TipoProduto,
+          TipoProduto2, TipoProduto3, binding_Toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

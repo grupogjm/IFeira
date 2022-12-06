@@ -4,6 +4,10 @@
         "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-50:\\layout\\activity_todas_frutas.xml"
     },
     {
+        "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-mergeDebugResources-47:\\layout\\activity_cadastrar_produtos.xml",
+        "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-50:\\layout\\activity_cadastrar_produtos.xml"
+    },
+    {
         "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-mergeDebugResources-47:\\layout\\activity_main.xml",
         "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-50:\\layout\\activity_main.xml"
     },
