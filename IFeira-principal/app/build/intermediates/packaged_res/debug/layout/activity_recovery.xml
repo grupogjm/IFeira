@@ -3,66 +3,96 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/snow"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <include
+        android:id="@+id/Toolbar"
+        layout="@layout/toolbar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
+    </include>
+    <View
+        android:id="@+id/Icone_voltar"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:background="@drawable/ic_seta_esquerda"
+        app:layout_constraintTop_toTopOf="@id/Toolbar"
+        app:layout_constraintStart_toStartOf="@id/Toolbar"
+        app:layout_constraintBottom_toBottomOf="@id/Toolbar">
+    </View>
+
+    <TextView
+        android:id="@+id/Text_redefinir_senha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="18dp"
+        android:text="Redefinir senha"
+        android:textSize="20dp"
+        android:textColor="@color/grenn_padrao"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="@id/Toolbar"
+        app:layout_constraintEnd_toEndOf="@id/Toolbar"
+        app:layout_constraintBottom_toBottomOf="@id/Toolbar"/>
+
+
+    <View
+        android:id="@+id/View_container_recuperarsenha"
+        android:layout_width="335dp"
+        android:layout_height="160dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
 
         <TextView
-            android:id="@+id/recovery_label"
+            android:id="@+id/Text_redefinir_senha_titulo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Insira um e-mail para recuperar sua senha"
+            android:layout_marginLeft="6dp"
+            android:text="Insira o e-mail da sua conta"
             android:textSize="19dp"
+            android:textStyle="bold"
             android:textColor="@color/black"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.4" />
+            app:layout_constraintStart_toStartOf="@id/View_container_recuperarsenha"
+            app:layout_constraintTop_toTopOf="@id/View_container_recuperarsenha"/>
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/input_email"
-            android:layout_width="290dp"
-            android:layout_height="wrap_content"
+            android:layout_width="335dp"
+            android:layout_height="50dp"
             android:layout_margin="15dp"
+            android:paddingLeft="10dp"
             android:hint="@string/email"
             android:textSize="16dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/recovery_label" />
+            android:background="@drawable/back_do_pesquisar_fundo_cinza"
+            app:layout_constraintTop_toBottomOf="@id/Text_redefinir_senha_titulo"
+            app:layout_constraintEnd_toEndOf="@id/View_container_recuperarsenha"
+            app:layout_constraintStart_toStartOf="@id/View_container_recuperarsenha" />
 
         <Button
             android:id="@+id/button_send_email"
-            android:layout_width="250dp"
-            android:layout_height="wrap_content"
-            android:layout_margin="18dp"
-            android:text="ENTRAR"
+            android:layout_width="335dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:text="REDEFINIR SENHA"
             android:textSize="16dp"
             android:textStyle="bold"
             android:backgroundTint="@color/grenn_padrao"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/input_email" />
-
-        <Button
-            android:id="@+id/ButtonBack"
-            android:layout_width="250dp"
-            android:layout_height="wrap_content"
-            android:text="Voltar para Login"
-            android:textStyle="bold"
-            android:textSize="16dp"
-            android:backgroundTint="@color/grenn_padrao"
-            app:layout_constraintTop_toBottomOf="@+id/button_send_email"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"/>
+            app:layout_constraintEnd_toEndOf="@id/View_container_recuperarsenha"
+            app:layout_constraintStart_toStartOf="@id/View_container_recuperarsenha"
+            app:layout_constraintTop_toBottomOf="@id/input_email" />
 
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/IFeira"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/grenn_padrao"
+        android:textStyle="bold"
+        android:text="IFeira"
+        android:textSize="18dp"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

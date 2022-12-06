@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
+import android.widget.HorizontalScrollView;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -107,7 +108,7 @@ public final class ActivityMainBinding implements ViewBinding {
   public final TextView NomeLegumes03;
 
   @NonNull
-  public final View SetaEndereco;
+  public final HorizontalScrollView ScrollViewPromocoes;
 
   @NonNull
   public final View SetaVerTodosFrutas;
@@ -194,15 +195,16 @@ public final class ActivityMainBinding implements ViewBinding {
       @NonNull LinearLayout LinearlayoutFrutas4, @NonNull View LinhaCima,
       @NonNull TextView NomeFrutas01, @NonNull TextView NomeFrutas02,
       @NonNull TextView NomeFrutas03, @NonNull TextView NomeLegumes01,
-      @NonNull TextView NomeLegumes02, @NonNull TextView NomeLegumes03, @NonNull View SetaEndereco,
-      @NonNull View SetaVerTodosFrutas, @NonNull View SetaVerTodosLegumes,
-      @NonNull TextView TextEmDestaque, @NonNull TextView TextPromocao, @NonNull TextView TextTudo,
-      @NonNull TextView TipoDoEndereco, @NonNull ToolbarBinding Toolbar,
-      @NonNull TextView ValorFrutas01, @NonNull TextView ValorFrutas02,
-      @NonNull TextView ValorFrutas03, @NonNull TextView ValorLegumes01,
-      @NonNull TextView ValorLegumes02, @NonNull TextView ValorLegumes03,
-      @NonNull TextView VerTodosCampoFrutas, @NonNull TextView VerTodosCampoLegumes,
-      @NonNull View ViewEmDestaque, @NonNull View ViewIcTresLinhas, @NonNull View ViewIconeCarrinho,
+      @NonNull TextView NomeLegumes02, @NonNull TextView NomeLegumes03,
+      @NonNull HorizontalScrollView ScrollViewPromocoes, @NonNull View SetaVerTodosFrutas,
+      @NonNull View SetaVerTodosLegumes, @NonNull TextView TextEmDestaque,
+      @NonNull TextView TextPromocao, @NonNull TextView TextTudo, @NonNull TextView TipoDoEndereco,
+      @NonNull ToolbarBinding Toolbar, @NonNull TextView ValorFrutas01,
+      @NonNull TextView ValorFrutas02, @NonNull TextView ValorFrutas03,
+      @NonNull TextView ValorLegumes01, @NonNull TextView ValorLegumes02,
+      @NonNull TextView ValorLegumes03, @NonNull TextView VerTodosCampoFrutas,
+      @NonNull TextView VerTodosCampoLegumes, @NonNull View ViewEmDestaque,
+      @NonNull View ViewIcTresLinhas, @NonNull View ViewIconeCarrinho,
       @NonNull View ViewIconeHitorico, @NonNull View ViewIconeHome, @NonNull View ViewIconeMap,
       @NonNull View ViewLogo, @NonNull View ViewPromocao, @NonNull View ViewTudo) {
     this.rootView = rootView;
@@ -234,7 +236,7 @@ public final class ActivityMainBinding implements ViewBinding {
     this.NomeLegumes01 = NomeLegumes01;
     this.NomeLegumes02 = NomeLegumes02;
     this.NomeLegumes03 = NomeLegumes03;
-    this.SetaEndereco = SetaEndereco;
+    this.ScrollViewPromocoes = ScrollViewPromocoes;
     this.SetaVerTodosFrutas = SetaVerTodosFrutas;
     this.SetaVerTodosLegumes = SetaVerTodosLegumes;
     this.TextEmDestaque = TextEmDestaque;
@@ -456,9 +458,9 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.Seta_endereco;
-      View SetaEndereco = ViewBindings.findChildViewById(rootView, id);
-      if (SetaEndereco == null) {
+      id = R.id.ScrollViewPromocoes;
+      HorizontalScrollView ScrollViewPromocoes = ViewBindings.findChildViewById(rootView, id);
+      if (ScrollViewPromocoes == null) {
         break missingId;
       }
 
@@ -613,11 +615,12 @@ public final class ActivityMainBinding implements ViewBinding {
           ImagemLegumes03, Linearlayout01, Linearlayout02, Linearlayout03, Linearlayout04,
           LinearlayoutFrutas1, LinearlayoutFrutas2, LinearlayoutFrutas3, LinearlayoutFrutas4,
           LinhaCima, NomeFrutas01, NomeFrutas02, NomeFrutas03, NomeLegumes01, NomeLegumes02,
-          NomeLegumes03, SetaEndereco, SetaVerTodosFrutas, SetaVerTodosLegumes, TextEmDestaque,
-          TextPromocao, TextTudo, TipoDoEndereco, binding_Toolbar, ValorFrutas01, ValorFrutas02,
-          ValorFrutas03, ValorLegumes01, ValorLegumes02, ValorLegumes03, VerTodosCampoFrutas,
-          VerTodosCampoLegumes, ViewEmDestaque, ViewIcTresLinhas, ViewIconeCarrinho,
-          ViewIconeHitorico, ViewIconeHome, ViewIconeMap, ViewLogo, ViewPromocao, ViewTudo);
+          NomeLegumes03, ScrollViewPromocoes, SetaVerTodosFrutas, SetaVerTodosLegumes,
+          TextEmDestaque, TextPromocao, TextTudo, TipoDoEndereco, binding_Toolbar, ValorFrutas01,
+          ValorFrutas02, ValorFrutas03, ValorLegumes01, ValorLegumes02, ValorLegumes03,
+          VerTodosCampoFrutas, VerTodosCampoLegumes, ViewEmDestaque, ViewIcTresLinhas,
+          ViewIconeCarrinho, ViewIconeHitorico, ViewIconeHome, ViewIconeMap, ViewLogo, ViewPromocao,
+          ViewTudo);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

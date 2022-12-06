@@ -22,7 +22,22 @@ public final class ActivityRecoveryBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final Button ButtonBack;
+  public final TextView IFeira;
+
+  @NonNull
+  public final View IconeVoltar;
+
+  @NonNull
+  public final TextView TextRedefinirSenha;
+
+  @NonNull
+  public final TextView TextRedefinirSenhaTitulo;
+
+  @NonNull
+  public final ToolbarBinding Toolbar;
+
+  @NonNull
+  public final View ViewContainerRecuperarsenha;
 
   @NonNull
   public final Button buttonSendEmail;
@@ -30,17 +45,20 @@ public final class ActivityRecoveryBinding implements ViewBinding {
   @NonNull
   public final TextInputEditText inputEmail;
 
-  @NonNull
-  public final TextView recoveryLabel;
-
-  private ActivityRecoveryBinding(@NonNull ConstraintLayout rootView, @NonNull Button ButtonBack,
-      @NonNull Button buttonSendEmail, @NonNull TextInputEditText inputEmail,
-      @NonNull TextView recoveryLabel) {
+  private ActivityRecoveryBinding(@NonNull ConstraintLayout rootView, @NonNull TextView IFeira,
+      @NonNull View IconeVoltar, @NonNull TextView TextRedefinirSenha,
+      @NonNull TextView TextRedefinirSenhaTitulo, @NonNull ToolbarBinding Toolbar,
+      @NonNull View ViewContainerRecuperarsenha, @NonNull Button buttonSendEmail,
+      @NonNull TextInputEditText inputEmail) {
     this.rootView = rootView;
-    this.ButtonBack = ButtonBack;
+    this.IFeira = IFeira;
+    this.IconeVoltar = IconeVoltar;
+    this.TextRedefinirSenha = TextRedefinirSenha;
+    this.TextRedefinirSenhaTitulo = TextRedefinirSenhaTitulo;
+    this.Toolbar = Toolbar;
+    this.ViewContainerRecuperarsenha = ViewContainerRecuperarsenha;
     this.buttonSendEmail = buttonSendEmail;
     this.inputEmail = inputEmail;
-    this.recoveryLabel = recoveryLabel;
   }
 
   @Override
@@ -70,9 +88,40 @@ public final class ActivityRecoveryBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.ButtonBack;
-      Button ButtonBack = ViewBindings.findChildViewById(rootView, id);
-      if (ButtonBack == null) {
+      id = R.id.IFeira;
+      TextView IFeira = ViewBindings.findChildViewById(rootView, id);
+      if (IFeira == null) {
+        break missingId;
+      }
+
+      id = R.id.Icone_voltar;
+      View IconeVoltar = ViewBindings.findChildViewById(rootView, id);
+      if (IconeVoltar == null) {
+        break missingId;
+      }
+
+      id = R.id.Text_redefinir_senha;
+      TextView TextRedefinirSenha = ViewBindings.findChildViewById(rootView, id);
+      if (TextRedefinirSenha == null) {
+        break missingId;
+      }
+
+      id = R.id.Text_redefinir_senha_titulo;
+      TextView TextRedefinirSenhaTitulo = ViewBindings.findChildViewById(rootView, id);
+      if (TextRedefinirSenhaTitulo == null) {
+        break missingId;
+      }
+
+      id = R.id.Toolbar;
+      View Toolbar = ViewBindings.findChildViewById(rootView, id);
+      if (Toolbar == null) {
+        break missingId;
+      }
+      ToolbarBinding binding_Toolbar = ToolbarBinding.bind(Toolbar);
+
+      id = R.id.View_container_recuperarsenha;
+      View ViewContainerRecuperarsenha = ViewBindings.findChildViewById(rootView, id);
+      if (ViewContainerRecuperarsenha == null) {
         break missingId;
       }
 
@@ -88,14 +137,9 @@ public final class ActivityRecoveryBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.recovery_label;
-      TextView recoveryLabel = ViewBindings.findChildViewById(rootView, id);
-      if (recoveryLabel == null) {
-        break missingId;
-      }
-
-      return new ActivityRecoveryBinding((ConstraintLayout) rootView, ButtonBack, buttonSendEmail,
-          inputEmail, recoveryLabel);
+      return new ActivityRecoveryBinding((ConstraintLayout) rootView, IFeira, IconeVoltar,
+          TextRedefinirSenha, TextRedefinirSenhaTitulo, binding_Toolbar,
+          ViewContainerRecuperarsenha, buttonSendEmail, inputEmail);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

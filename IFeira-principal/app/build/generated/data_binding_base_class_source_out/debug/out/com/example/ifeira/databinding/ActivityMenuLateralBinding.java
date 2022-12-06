@@ -48,6 +48,9 @@ public final class ActivityMenuLateralBinding implements ViewBinding {
   public final ConstraintLayout LayoutPerfilVendedor;
 
   @NonNull
+  public final ConstraintLayout LayoutSair;
+
+  @NonNull
   public final View LinhaSeparadora;
 
   @NonNull
@@ -66,6 +69,9 @@ public final class ActivityMenuLateralBinding implements ViewBinding {
   public final View LinhaSeparadora6;
 
   @NonNull
+  public final View LinhaSeparadora7;
+
+  @NonNull
   public final TextView NomeUsuario;
 
   @NonNull
@@ -82,10 +88,11 @@ public final class ActivityMenuLateralBinding implements ViewBinding {
       @NonNull ConstraintLayout LayoutConstraint01, @NonNull ConstraintLayout LayoutConstraint02,
       @NonNull ConstraintLayout LayoutHitorico, @NonNull ConstraintLayout LayoutMeusProdutos,
       @NonNull ConstraintLayout LayoutPerfilUsuario, @NonNull ConstraintLayout LayoutPerfilVendedor,
-      @NonNull View LinhaSeparadora, @NonNull View LinhaSeparadora2, @NonNull View LinhaSeparadora3,
+      @NonNull ConstraintLayout LayoutSair, @NonNull View LinhaSeparadora,
+      @NonNull View LinhaSeparadora2, @NonNull View LinhaSeparadora3,
       @NonNull View LinhaSeparadora4, @NonNull View LinhaSeparadora5,
-      @NonNull View LinhaSeparadora6, @NonNull TextView NomeUsuario, @NonNull TextView TextPerfil,
-      @NonNull ToolbarBinding Toolbar, @NonNull View ViewPerfil) {
+      @NonNull View LinhaSeparadora6, @NonNull View LinhaSeparadora7, @NonNull TextView NomeUsuario,
+      @NonNull TextView TextPerfil, @NonNull ToolbarBinding Toolbar, @NonNull View ViewPerfil) {
     this.rootView = rootView;
     this.IFeira = IFeira;
     this.IconeX = IconeX;
@@ -96,12 +103,14 @@ public final class ActivityMenuLateralBinding implements ViewBinding {
     this.LayoutMeusProdutos = LayoutMeusProdutos;
     this.LayoutPerfilUsuario = LayoutPerfilUsuario;
     this.LayoutPerfilVendedor = LayoutPerfilVendedor;
+    this.LayoutSair = LayoutSair;
     this.LinhaSeparadora = LinhaSeparadora;
     this.LinhaSeparadora2 = LinhaSeparadora2;
     this.LinhaSeparadora3 = LinhaSeparadora3;
     this.LinhaSeparadora4 = LinhaSeparadora4;
     this.LinhaSeparadora5 = LinhaSeparadora5;
     this.LinhaSeparadora6 = LinhaSeparadora6;
+    this.LinhaSeparadora7 = LinhaSeparadora7;
     this.NomeUsuario = NomeUsuario;
     this.TextPerfil = TextPerfil;
     this.Toolbar = Toolbar;
@@ -189,6 +198,12 @@ public final class ActivityMenuLateralBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.Layout_Sair;
+      ConstraintLayout LayoutSair = ViewBindings.findChildViewById(rootView, id);
+      if (LayoutSair == null) {
+        break missingId;
+      }
+
       id = R.id.Linha_separadora;
       View LinhaSeparadora = ViewBindings.findChildViewById(rootView, id);
       if (LinhaSeparadora == null) {
@@ -225,6 +240,12 @@ public final class ActivityMenuLateralBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.Linha_separadora7;
+      View LinhaSeparadora7 = ViewBindings.findChildViewById(rootView, id);
+      if (LinhaSeparadora7 == null) {
+        break missingId;
+      }
+
       id = R.id.Nome_usuario;
       TextView NomeUsuario = ViewBindings.findChildViewById(rootView, id);
       if (NomeUsuario == null) {
@@ -252,9 +273,9 @@ public final class ActivityMenuLateralBinding implements ViewBinding {
 
       return new ActivityMenuLateralBinding((LinearLayoutCompat) rootView, IFeira, IconeX,
           LayoutChat, LayoutConstraint01, LayoutConstraint02, LayoutHitorico, LayoutMeusProdutos,
-          LayoutPerfilUsuario, LayoutPerfilVendedor, LinhaSeparadora, LinhaSeparadora2,
-          LinhaSeparadora3, LinhaSeparadora4, LinhaSeparadora5, LinhaSeparadora6, NomeUsuario,
-          TextPerfil, binding_Toolbar, ViewPerfil);
+          LayoutPerfilUsuario, LayoutPerfilVendedor, LayoutSair, LinhaSeparadora, LinhaSeparadora2,
+          LinhaSeparadora3, LinhaSeparadora4, LinhaSeparadora5, LinhaSeparadora6, LinhaSeparadora7,
+          NomeUsuario, TextPerfil, binding_Toolbar, ViewPerfil);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

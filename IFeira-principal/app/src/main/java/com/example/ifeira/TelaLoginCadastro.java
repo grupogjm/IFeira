@@ -6,7 +6,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+
 public class TelaLoginCadastro extends AppCompatActivity {
+    private FirebaseAuth auth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,5 +35,16 @@ public class TelaLoginCadastro extends AppCompatActivity {
                 startActivity(i);
             }
         });
+    }
+
+    @Override
+    protected void onStart(){
+        super.onStart();
+        FirebaseUser userAtual = FirebaseAuth.getInstance().getCurrentUser();
+        if(userAtual != null){
+            Intent i = new Intent(TelaLoginCadastro.this, MainActivity.class);
+            startActivity(i);
+            finish();
+        }
     }
 }

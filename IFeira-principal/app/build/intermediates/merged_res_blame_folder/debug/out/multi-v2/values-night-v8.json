@@ -1,25 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.ifeira.app-mergeDebugResources-43:/values-night-v8/values-night-v8.xml",
+            "outputFile": "com.example.ifeira.app-mergeDebugResources-46:/values-night-v8/values-night-v8.xml",
             "map": [
-                {
-                    "source": "C:\\Users\\moise\\.gradle\\caches\\transforms-3\\3237c50a3caa87d96377052b95ee4677\\transformed\\appcompat-1.5.1\\res\\values-night-v8\\values-night-v8.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,125,209,293,389,491,593,687",
-                        "endColumns": "69,83,83,95,101,101,93,88",
-                        "endOffsets": "120,204,288,384,486,588,682,771"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,46",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,125,209,293,389,491,593,3920",
-                        "endColumns": "69,83,83,95,101,101,93,88",
-                        "endOffsets": "120,204,288,384,486,588,682,4004"
-                    }
-                },
                 {
                     "source": "D:\\programacao\\my_programas\\IFeira\\IFeira-principal\\app\\src\\main\\res\\values-night\\themes.xml",
                     "from": {
@@ -40,7 +23,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\moise\\.gradle\\caches\\transforms-3\\d570501ed8422ac3c5d39480119bfc6a\\transformed\\material-1.7.0\\res\\values-night-v8\\values-night-v8.xml",
+                    "source": "C:\\Users\\moise\\.gradle\\caches\\transforms-3\\ea4fb2c479fb388b06192e19e8a38269\\transformed\\appcompat-1.5.1\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593,687",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "120,204,288,384,486,588,682,771"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,46",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593,3920",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "120,204,288,384,486,588,682,4004"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\moise\\.gradle\\caches\\transforms-3\\a43913465a7046b6ede2cc444d0a5f3d\\transformed\\material-1.7.0\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

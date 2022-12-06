@@ -7,26 +7,48 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
+import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.ifeira.R;
+import com.google.android.material.textfield.TextInputEditText;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
 public final class ActivityCadastroDoUsuarioBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
-
-  @NonNull
-  public final Button BotaoGoogle;
+  private final ScrollView rootView;
 
   @NonNull
   public final Button Cadastrar;
+
+  @NonNull
+  public final EditText EditBairro;
+
+  @NonNull
+  public final EditText EditCidade;
+
+  @NonNull
+  public final EditText EditNumeroCasa;
+
+  @NonNull
+  public final EditText EditRua;
+
+  @NonNull
+  public final TextView IFeira;
+
+  @NonNull
+  public final TextView TextChat;
+
+  @NonNull
+  public final TextView TextEnderecoCadastro;
+
+  @NonNull
+  public final ToolbarBinding Toolbar;
 
   @NonNull
   public final CheckBox checkboxDoManterConectado;
@@ -50,10 +72,13 @@ public final class ActivityCadastroDoUsuarioBinding implements ViewBinding {
   public final EditText editNome;
 
   @NonNull
-  public final EditText editRepetirSenha;
+  public final TextInputEditText editRepetirSenha;
 
   @NonNull
-  public final EditText editSenha;
+  public final TextInputEditText editSenha;
+
+  @NonNull
+  public final View iconeVoltarCadastro;
 
   @NonNull
   public final TextView textManterConectado;
@@ -61,16 +86,26 @@ public final class ActivityCadastroDoUsuarioBinding implements ViewBinding {
   @NonNull
   public final TextView textPromocoesDescontos;
 
-  private ActivityCadastroDoUsuarioBinding(@NonNull ConstraintLayout rootView,
-      @NonNull Button BotaoGoogle, @NonNull Button Cadastrar,
+  private ActivityCadastroDoUsuarioBinding(@NonNull ScrollView rootView, @NonNull Button Cadastrar,
+      @NonNull EditText EditBairro, @NonNull EditText EditCidade, @NonNull EditText EditNumeroCasa,
+      @NonNull EditText EditRua, @NonNull TextView IFeira, @NonNull TextView TextChat,
+      @NonNull TextView TextEnderecoCadastro, @NonNull ToolbarBinding Toolbar,
       @NonNull CheckBox checkboxDoManterConectado, @NonNull CheckBox checkboxPromocoes,
       @NonNull EditText editCelular, @NonNull EditText editDDD,
       @NonNull EditText editDataDeNascimento, @NonNull EditText editEMail,
-      @NonNull EditText editNome, @NonNull EditText editRepetirSenha, @NonNull EditText editSenha,
+      @NonNull EditText editNome, @NonNull TextInputEditText editRepetirSenha,
+      @NonNull TextInputEditText editSenha, @NonNull View iconeVoltarCadastro,
       @NonNull TextView textManterConectado, @NonNull TextView textPromocoesDescontos) {
     this.rootView = rootView;
-    this.BotaoGoogle = BotaoGoogle;
     this.Cadastrar = Cadastrar;
+    this.EditBairro = EditBairro;
+    this.EditCidade = EditCidade;
+    this.EditNumeroCasa = EditNumeroCasa;
+    this.EditRua = EditRua;
+    this.IFeira = IFeira;
+    this.TextChat = TextChat;
+    this.TextEnderecoCadastro = TextEnderecoCadastro;
+    this.Toolbar = Toolbar;
     this.checkboxDoManterConectado = checkboxDoManterConectado;
     this.checkboxPromocoes = checkboxPromocoes;
     this.editCelular = editCelular;
@@ -80,13 +115,14 @@ public final class ActivityCadastroDoUsuarioBinding implements ViewBinding {
     this.editNome = editNome;
     this.editRepetirSenha = editRepetirSenha;
     this.editSenha = editSenha;
+    this.iconeVoltarCadastro = iconeVoltarCadastro;
     this.textManterConectado = textManterConectado;
     this.textPromocoesDescontos = textPromocoesDescontos;
   }
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public ScrollView getRoot() {
     return rootView;
   }
 
@@ -111,17 +147,60 @@ public final class ActivityCadastroDoUsuarioBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.BotaoGoogle;
-      Button BotaoGoogle = ViewBindings.findChildViewById(rootView, id);
-      if (BotaoGoogle == null) {
-        break missingId;
-      }
-
       id = R.id.Cadastrar;
       Button Cadastrar = ViewBindings.findChildViewById(rootView, id);
       if (Cadastrar == null) {
         break missingId;
       }
+
+      id = R.id.Edit_Bairro;
+      EditText EditBairro = ViewBindings.findChildViewById(rootView, id);
+      if (EditBairro == null) {
+        break missingId;
+      }
+
+      id = R.id.Edit_Cidade;
+      EditText EditCidade = ViewBindings.findChildViewById(rootView, id);
+      if (EditCidade == null) {
+        break missingId;
+      }
+
+      id = R.id.Edit_numeroCasa;
+      EditText EditNumeroCasa = ViewBindings.findChildViewById(rootView, id);
+      if (EditNumeroCasa == null) {
+        break missingId;
+      }
+
+      id = R.id.Edit_Rua;
+      EditText EditRua = ViewBindings.findChildViewById(rootView, id);
+      if (EditRua == null) {
+        break missingId;
+      }
+
+      id = R.id.IFeira;
+      TextView IFeira = ViewBindings.findChildViewById(rootView, id);
+      if (IFeira == null) {
+        break missingId;
+      }
+
+      id = R.id.Text_chat;
+      TextView TextChat = ViewBindings.findChildViewById(rootView, id);
+      if (TextChat == null) {
+        break missingId;
+      }
+
+      id = R.id.Text_EnderecoCadastro;
+      TextView TextEnderecoCadastro = ViewBindings.findChildViewById(rootView, id);
+      if (TextEnderecoCadastro == null) {
+        break missingId;
+      }
+
+      id = R.id.Toolbar;
+      View Toolbar = ViewBindings.findChildViewById(rootView, id);
+      if (Toolbar == null) {
+        break missingId;
+      }
+      ToolbarBinding binding_Toolbar = ToolbarBinding.bind(Toolbar);
 
       id = R.id.checkboxDoManterConectado;
       CheckBox checkboxDoManterConectado = ViewBindings.findChildViewById(rootView, id);
@@ -166,14 +245,20 @@ public final class ActivityCadastroDoUsuarioBinding implements ViewBinding {
       }
 
       id = R.id.edit_RepetirSenha;
-      EditText editRepetirSenha = ViewBindings.findChildViewById(rootView, id);
+      TextInputEditText editRepetirSenha = ViewBindings.findChildViewById(rootView, id);
       if (editRepetirSenha == null) {
         break missingId;
       }
 
       id = R.id.edit_Senha;
-      EditText editSenha = ViewBindings.findChildViewById(rootView, id);
+      TextInputEditText editSenha = ViewBindings.findChildViewById(rootView, id);
       if (editSenha == null) {
+        break missingId;
+      }
+
+      id = R.id.icone_voltar_cadastro;
+      View iconeVoltarCadastro = ViewBindings.findChildViewById(rootView, id);
+      if (iconeVoltarCadastro == null) {
         break missingId;
       }
 
@@ -189,10 +274,11 @@ public final class ActivityCadastroDoUsuarioBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityCadastroDoUsuarioBinding((ConstraintLayout) rootView, BotaoGoogle,
-          Cadastrar, checkboxDoManterConectado, checkboxPromocoes, editCelular, editDDD,
+      return new ActivityCadastroDoUsuarioBinding((ScrollView) rootView, Cadastrar, EditBairro,
+          EditCidade, EditNumeroCasa, EditRua, IFeira, TextChat, TextEnderecoCadastro,
+          binding_Toolbar, checkboxDoManterConectado, checkboxPromocoes, editCelular, editDDD,
           editDataDeNascimento, editEMail, editNome, editRepetirSenha, editSenha,
-          textManterConectado, textPromocoesDescontos);
+          iconeVoltarCadastro, textManterConectado, textPromocoesDescontos);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

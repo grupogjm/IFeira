@@ -1,78 +1,86 @@
 [
     {
-        "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-mergeDebugResources-44:\\layout\\tela_produto.xml",
-        "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-47:\\layout\\tela_produto.xml"
+        "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-mergeDebugResources-47:\\layout\\activity_todas_frutas.xml",
+        "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-50:\\layout\\activity_todas_frutas.xml"
     },
     {
-        "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-mergeDebugResources-44:\\layout\\meus_pedidos.xml",
-        "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-47:\\layout\\meus_pedidos.xml"
+        "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-mergeDebugResources-47:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-50:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-mergeDebugResources-44:\\layout\\activity_login.xml",
-        "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-47:\\layout\\activity_login.xml"
+        "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-mergeDebugResources-47:\\layout\\activity_cadastro_do_usuario.xml",
+        "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-50:\\layout\\activity_cadastro_do_usuario.xml"
     },
     {
-        "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-mergeDebugResources-44:\\layout\\activity_cadastro_do_usuario.xml",
-        "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-47:\\layout\\activity_cadastro_do_usuario.xml"
+        "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-mergeDebugResources-47:\\layout\\activity_tela_login_cadastro.xml",
+        "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-50:\\layout\\activity_tela_login_cadastro.xml"
     },
     {
-        "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-mergeDebugResources-44:\\layout\\perfil_usuario.xml",
-        "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-47:\\layout\\perfil_usuario.xml"
+        "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-mergeDebugResources-47:\\layout\\activity_recovery.xml",
+        "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-50:\\layout\\activity_recovery.xml"
     },
     {
-        "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-mergeDebugResources-44:\\layout\\activity_tela_login_cadastro.xml",
-        "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-47:\\layout\\activity_tela_login_cadastro.xml"
+        "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-mergeDebugResources-47:\\layout\\activity_tela_de_conversas.xml",
+        "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-50:\\layout\\activity_tela_de_conversas.xml"
     },
     {
-        "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-mergeDebugResources-44:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-47:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-mergeDebugResources-47:\\layout\\activity_horarios_detalhes.xml",
+        "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-50:\\layout\\activity_horarios_detalhes.xml"
     },
     {
-        "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-mergeDebugResources-44:\\layout\\perfil_vendedor.xml",
-        "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-47:\\layout\\perfil_vendedor.xml"
+        "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-mergeDebugResources-47:\\layout\\tela_produto.xml",
+        "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-50:\\layout\\tela_produto.xml"
     },
     {
-        "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-mergeDebugResources-44:\\layout\\activity_tela_de_conversas.xml",
-        "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-47:\\layout\\activity_tela_de_conversas.xml"
+        "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-mergeDebugResources-47:\\layout\\perfil_vendedor.xml",
+        "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-50:\\layout\\perfil_vendedor.xml"
     },
     {
-        "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-mergeDebugResources-44:\\layout\\activity_tela_de_pagamento.xml",
-        "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-47:\\layout\\activity_tela_de_pagamento.xml"
+        "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-mergeDebugResources-47:\\layout\\meus_pedidos.xml",
+        "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-50:\\layout\\meus_pedidos.xml"
     },
     {
-        "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-mergeDebugResources-44:\\layout\\activity_horarios_detalhes.xml",
-        "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-47:\\layout\\activity_horarios_detalhes.xml"
+        "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-mergeDebugResources-47:\\layout\\toolbar.xml",
+        "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-50:\\layout\\toolbar.xml"
     },
     {
-        "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-mergeDebugResources-44:\\layout\\carrinho.xml",
-        "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-47:\\layout\\carrinho.xml"
+        "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-mergeDebugResources-47:\\layout\\activity_menu_lateral.xml",
+        "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-50:\\layout\\activity_menu_lateral.xml"
     },
     {
-        "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-mergeDebugResources-44:\\layout\\activity_menu_lateral.xml",
-        "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-47:\\layout\\activity_menu_lateral.xml"
+        "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-mergeDebugResources-47:\\layout\\carrinho.xml",
+        "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-50:\\layout\\carrinho.xml"
     },
     {
-        "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-mergeDebugResources-44:\\layout\\activity_sobre_detalhes.xml",
-        "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-47:\\layout\\activity_sobre_detalhes.xml"
+        "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-mergeDebugResources-47:\\layout\\activity_tela_de_pagamento.xml",
+        "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-50:\\layout\\activity_tela_de_pagamento.xml"
     },
     {
-        "merged": "com.example.ifeira.app-mergeDebugResources-44:/layout/activity_login.xml",
-        "source": "com.example.ifeira.app-main-47:/layout/activity_login.xml"
+        "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-mergeDebugResources-47:\\layout\\activity_sobre_detalhes.xml",
+        "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-50:\\layout\\activity_sobre_detalhes.xml"
     },
     {
-        "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-mergeDebugResources-44:\\layout\\toolbar.xml",
-        "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-47:\\layout\\toolbar.xml"
+        "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-mergeDebugResources-47:\\layout\\activity_todos_legumes.xml",
+        "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-50:\\layout\\activity_todos_legumes.xml"
     },
     {
-        "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-mergeDebugResources-44:\\layout\\activity_historico_de_pedidos.xml",
-        "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-47:\\layout\\activity_historico_de_pedidos.xml"
+        "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-mergeDebugResources-47:\\layout\\activity_meus_produtos.xml",
+        "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-50:\\layout\\activity_meus_produtos.xml"
     },
     {
-        "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-mergeDebugResources-44:\\layout\\activity_recovery.xml",
-        "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-47:\\layout\\activity_recovery.xml"
+        "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-mergeDebugResources-47:\\layout\\perfil_usuario.xml",
+        "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-50:\\layout\\perfil_usuario.xml"
     },
     {
-        "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-mergeDebugResources-44:\\layout\\activity_meus_produtos.xml",
-        "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-47:\\layout\\activity_meus_produtos.xml"
+        "merged": "com.example.ifeira.app-mergeDebugResources-47:/layout/activity_cadastro_do_usuario.xml",
+        "source": "com.example.ifeira.app-main-50:/layout/activity_cadastro_do_usuario.xml"
+    },
+    {
+        "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-mergeDebugResources-47:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-50:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-mergeDebugResources-47:\\layout\\activity_historico_de_pedidos.xml",
+        "source": "C:\\Users\\moise\\.gradle\\daemon\\7.4\\com.example.ifeira.app-main-50:\\layout\\activity_historico_de_pedidos.xml"
     }
 ]
